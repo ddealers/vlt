@@ -1,0 +1,46 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/*-----------------------------------*/
+h1{
+
+}
+/*-----------------------------------*/
+div.logo{
+	background: #00b0b5;
+	width: 100%;
+	height: 95px;
+}
+div.header-nav div.logo img{
+	padding: 10px 0px 0px 20px;
+}
+div.social ul.redes li a img{
+	width: 85%;
+}
+div.social ul.redes{
+	position: absolute;
+	top: 7px;
+	left: 167px;
+}	
+div.social ul.redes li{
+	display: inline-block;
+	width: 34px;
+	position: relative;
+	margin: 50px 0px 0px 0px;
+}
+div.menu ul.list{
+	background: #00b0b5;
+}
+div.menu ul.list li{
+	font-size: 13px;
+	display: inline-block;
+}
+div.menu ul.list li a{
+	color: #fff;
+}*/
+
+
+
+
+
