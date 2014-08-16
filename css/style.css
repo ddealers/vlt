@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
 }
 
@@ -345,6 +344,7 @@ img.heart{
 	width: 100%;
 	margin: auto;
 	padding-top: 20px;
+	margin-bottom: 40px;
 }
 div.row.featurette-coca {
 	background: #00b0b5;
@@ -368,6 +368,7 @@ div.col-md-7 h2.featurette-heading-rojo {
 ======================================*/
 .featurette-divider{
 	margin: 10px 0;
+	background: #596a7a;
 }
 div.row.featurette-white {
 	background: #fff;
@@ -376,24 +377,187 @@ div.row.featurette-white {
 h1.seduce{
 	border-bottom: 3px solid #00b0b5;
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 40px;
 	padding-bottom: 10px;
 }
+/*======================================
+					CARS
+======================================*/
 img.car {
 	width: 44%;
-	padding-top: 20px;
+	padding-top: 40px;
 	margin-left: 80px;
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 }
-h1.solution {
+.tittle-all {
+	font-family: 'georgia';
+	font-style: italic;
+	text-align: center;
+	color: #fff;
+}
+h1.solution-every {
 	border-top: 3px solid #00b0b5;
 	text-align: center;
 	margin-top: 25px;
 	padding-bottom: 10px;
+	color: #fff;
 }
-h1.solution span.text-green{
+h1.solution-every span.text-green{
 	color: #00b0b5;
 	font-size: 25px;
 	font-weight: bold;
 	padding-left: 10px;
 }
+/*======================================
+					MARCAS
+======================================*/
+h2.tittle-solution{
+	font-family: 'georgia';
+	font-style: italic;
+	text-align: center;
+	padding-top: 30px;
+}
+h1.solution-text{
+	font-weight: bold;
+	text-align: center;
+	border-top: 3px solid #00b0b5;
+	padding: 10px;
+	margin: 0px 20px 15px 20px;
+}
+img.marca-co{
+	width: 100%;
+	padding-bottom: 10px;
+}
+img.marca-p{
+	width: 100%;
+	padding-bottom: 10px;
+}
+img.marca-z{
+	width: 100%;
+	padding-bottom: 10px;
+}
+img.marca-c{
+	width: 100%;
+	padding-bottom: 10px;
+}
+p.marcas{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+p.leyenda{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	border-top: 3px solid #00b0b5; 
+	padding-bottom: 10px;
+	margin: 0px 20px 0px 20px;
+}
+div.row.featurette-back{
+background: #fff;
+margin-top: -10px;
+}
+div.col-md-7-white{
+	background: #fff;
+}
+div.col-md-5-back-white{
+	background: #fff;
+}
+div.row.featurette.y {
+	background: #fff;
+
+}
+div.col-md-5{
+	padding: 0px;
+}
+/*======================================
+					MARCAS
+======================================*/
+div.row.featurette-hand{
+	background: url(../img/Crop_CHICA.jpg);
+	width: 100%;
+}
+.tittle-women {
+	font-family: 'georgia';
+	font-style: italic;
+	text-align: center;
+	margin-top: 160px;
+	color: #fff;
+	border-bottom: 3px solid #00b0b5;
+	padding-bottom: 10px;
+}
+h1.h1Tittle{
+	font-size: 25px;
+	font-weight: bold;
+	margin: -5px 0px 10px 0px;
+	text-shadow: none;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 167px;
+}
+/*======================================
+					CANASTO
+======================================*/
+div.row.featurette-grisc {
+	background: #cecccf;
+	margin-top: -10px;
+}
+h1.titulo {
+	font-size: 25px;
+	font-weight: bold;
+	margin: -5px 0px 10px 0px;
+	text-shadow: none;
+	text-align: center;
+	margin-top: 40px;
+	border-bottom: 3px solid #00b0b5;
+	padding-bottom: 10px;
+}
+img.canasto{
+	width: 80%;
+	margin: 0px 0px 0px 30px;
+}
+p.leyend{
+	text-align: center;
+	font-family: 'georgia';
+	font-style: italic;
+	margin-bottom: 20px;
+}
+/*======================================
+					HOLA!
+======================================*/
+div.col-lg-4 h2.holaContact{
+	font-family: 'georgia';
+	font-style: italic;
+	margin-top: 15px;
+	border-bottom: 3px solid #00b0b5;
+	padding: 10px;
+	font-size: 45px;
+	color: #fff;
+	text-align: center;
+}
+p.contact {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+div.container.marketing-fondoUl {
+	background: #344;
+}
+p.direccion{
+	color: #fff;
+}
+p.pais{
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+}
+a.links{
+	color: #8D8D8D;
+}
+
+
+
+
+
+
