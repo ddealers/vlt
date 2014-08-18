@@ -139,9 +139,9 @@ body {
 					NAV
 ======================================*/
 a.navbar-brand img.logo{
-	width: 73%;
+	width: 65%;
 	position: absolute;
-	top: 3px;
+	top: 5px;
 	left: 4px;
 }
 .navbar-inverse {
@@ -555,7 +555,12 @@ p.pais{
 a.links{
 	color: #8D8D8D;
 }
-
+/*======================================
+				
+======================================*/
+img.play{
+	margin-left: 10px;
+}
 
 
 
