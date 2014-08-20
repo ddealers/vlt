@@ -648,7 +648,7 @@ img.play{
 /*======================================
 				
 ======================================*/
-
+/*
 @media (min-width: 480px){
 	a.navbar-brand img.logo {
 		width: 45%;
@@ -741,6 +741,7 @@ img.play{
 /*======================================
 				
 ======================================*/
+/*
 @media (min-width: 640px){
 	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
 		padding-top: 10px;
@@ -835,6 +836,7 @@ img.play{
 /*======================================
 				
 ======================================*/
+/*
 @media (min-width: 600px){
 	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
 		padding-top: 10px;
@@ -1646,6 +1648,7 @@ img.play{
 /*======================================
 				
 ======================================*/
+/*
 @media (max-width: 1024px) and (max-height: 768px){
 
 .navbar-wrapper {
