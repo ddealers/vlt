@@ -484,6 +484,7 @@ h1, .h1 {
 	font-weight: bold;
 	margin: -5px 0px 10px 0px;
 	text-shadow: none;
+	font-family: 'proximanova-bold';
 }
 h2, .h2 {
 	font-size: 20px;
@@ -571,6 +572,7 @@ div.carousel-caption{
 	background: none;
 	border: none;
 	margin-top: -5px;
+	font-family: 'proximanova-bold';
 }
 .carousel-control.right {
 	height: 550px;
@@ -646,6 +648,7 @@ h2.featurette-heading{
 	border-bottom: 5px solid;
 	border-top: 5px solid;
 	padding: 10px;
+	font-family: 'proximanova-bold';
 }
 p.porcentaje {
 	color: #fff;
@@ -668,13 +671,13 @@ p.porcentaje span{
 	font-size: 58px;
 	font-weight: bold;
 	font-style: normal;
-	font-family: 'proximanova-bold';
+	font-family: 'georgia';
 }
 p.porcentaje2 span{
 	font-size: 58px;
 	font-weight: bold;
 	font-style: normal;
-	font-family: 'proximanova-bold';
+	font-family: 'georgia';
 }
 p.liga{
 	font-size: 8px;
@@ -857,7 +860,7 @@ div.col-md-3{
 	padding-bottom: 25px;
 }
 a.icons{
-	font-weight: bold;
+	font-family: 'proximanova-bold';
 	color: #5a5a5a;
 }
 p.contenido{
@@ -963,7 +966,7 @@ div.col-md-7 h3.normal {
 }
 h2.featurette-heading-rojo {
 	color: #e2202c;
-	font-weight: bold;
+	font-family: 'proximanova-bold';
 	text-align: center;
 	border-bottom: 5px solid;
 	border-top: 5px solid;
@@ -1131,7 +1134,7 @@ h1.solution-every {
 h1.solution-every span.text-green{
 	color: #00b0b5;
 	font-size: 25px;
-	font-weight: bold;
+	font-family: 'proximanova-bold';
 	padding-left: 10px;
 }
 @media (min-width: 480px){
