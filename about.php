@@ -1,21 +1,4 @@
 
-<?php
-require_once('lib/PDO/config.php');
-require_once('lib/PDO/PDODB.php');
-require_once('lib/PDO/PDOResult.php');
-class News extends PDODB{
-    public function __construct(){
-        parent::__construct();
-        $this->table = 'articles';
-        $this->record = false;
-    }
-    public function all(){
-        return $this->_where("id_article,estatus,title,intro,descr,pic,type", "estatus=1", 10, "id_article DESC");
-    }
-}
-$n = new News();
-$news = $n->all();
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -23,11 +6,13 @@ $news = $n->all();
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </head>
-    <body class="interior">
+    <body data-spy="scroll" data-target=".navbar">
         <div class="navbar-wrapper">
             <div class="container">
                 <div class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -63,113 +48,88 @@ $news = $n->all();
         </div>
         <div class="main container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-md-4">
-                    <ul>
-                        <li><a href="#">WHY VISUAL LATINA</a></li>
-                        <li><a href="#">OUR STORY</a></li>
-                        <li><a href="#">OUR CAPABILITIES</a></li>
-                        <li><a href="#">WHO WE ARE</a></li>
+                <div class="col-xs-12 col-md-3">
+                    <ul class="smooth">
+                        <li><a class="page-scroll" href="#why">WHY VISUAL LATINA?</a></li>
+                        <li><a class="page-scroll" href="#story">OUR STORY</a></li>
+                        <li><a class="page-scroll" href="#capabilities">OUR CAPABILITIES</a></li>
+                        <li><a class="page-scroll" href="#who">WHO WE ARE</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-md-8">
-                    <div class="block-1">
-						<img src="images/txt_about1.png" alt="A distinctive view mixed with Latin passion. WE CREATE SHOPPER SOLUTIONS<br/>THAT IMPACT SALES." title="A distinctive view mixed with Latin passion. WE CREATE SHOPPER SOLUTIONS<br/>THAT IMPACT SALES." />
-						<img src="images/about-img1.png" alt="WHY VISUAL LATINA?" title="WHY VISUAL LATINA?" /><br/>
-					</div>
-					<div>
-					<br clear="left" /><br /><br /><br /><br /><br />
-						<div class="box-lef"><img src="images/txt_about2.png" alt="WHY VISUAL LATINA?" title="WHY VISUAL LATINA?" /></div>
-						<div class="box-rig"><img src="images/img-why.png" alt="WHY VISUAL LATINA?" title="WHY VISUAL LATINA?" /></div>
-					</div>
-					<br clear="left" /><br />
-					<div id="about-story"></div>
-					<br /><br /><br /><br /><br /><br /><br />
-					<div class="block-1"><img src="images/txt_about3.png" alt="OUR STORY" title="OUR STORY" /></div>
-					<br clear="left" />
-					<div>
-						<div class="box-lef-our"><img src="images/img-our.png" alt="OUR STORY" title="OUR STORY" /></div>
-						<div class="box-rig-our"><img src="images/txt_about4.png" alt="OUR STORY" title="OUR STORY" /></div>
-					</div>
-					<br clear="left" />
-					<div id="about-capabilities"></div>
-					<br /><br /><br /><br /><br /><br />
-					<div><img src="images/txt_about5.png" alt="OUR CAPABILITIES" title="OUR CAPABILITIES" /><br />
-						<div class="box-lef-capa"><img src="images/txt_about6.png" alt="OUR CAPABILITIES" title="OUR CAPABILITIES" /></div>
-						<div class="box-rig-capa"><img src="images/img-capa.png" alt="OUR STORY" title="OUR STORY" /></div>
-					</div>
-					<br clear="left" />
-					<div id="about-we-are"></div>
-					<br clear="left" /><br /><br /><br /><br /><br /><br /><br />
-					<div>
-						<img src="images/txt_about7.png" alt="WHO WE ARE" title="WHO WE ARE" />
-						<br /><br /><br />
-						<div class="content-thumb">
-							<div class="thumb"><img src="images/thumb1.jpg" alt="WHO WE ARE" title="WHO WE ARE" /></div>
-							<div class="thumb"><img src="images/thumb2.jpg" alt="WHO WE ARE" title="WHO WE ARE" /></div>
-							<div class="thumb"><img src="images/thumb3.jpg" alt="WHO WE ARE" title="WHO WE ARE" /></div>
-							<div class="thumb"><img src="images/thumb4.jpg" alt="WHO WE ARE" title="WHO WE ARE" /></div>			
-						</div>
-						<br clear="left" /><br />
+                <div class="main-view col-xs-12 col-md-9">
+                	<div class="col-md-11">
+                		<div class="row">
+	                		<div class="col-md-12">
+	                			<p class="cite">A distinctive view mixed with Latin passion.<span></span></p>
+	                			<h2>We create shopper solutions that impact sales.</h2>
+	                    		<img class="center" src="./img/about-img1.png" />
+	                    	</div>
+                    	</div>
+                    	<div id="why" class="row paragraph">
+	                    	<div class="col-md-8">
+	                    		<h1>Why Visual Latina?<span></span></h1>
+		                    	<p>Working on projects globally, combined with our strong and deep experience with the US Hispanic and Latin America markets, constantly empowers us to understand unique shopping behaviors in many differents cultures and how to best to communicate with these shoppers.</p>
+		                    	<p>Over 28 years creating innovative shopper solutions for global brands.</p>
+		                    	<p>We are now a growing network but we still have the Latin passion and spirit at our core. Our 100+ multicultural team gives us a distinct view and perspective, which we use to form our strategic, creative and implementation process.
+		                    	<h3>When strategy meets reality, we're there.<br />
+		                    		Seducing Shoppers.</h3>
+		                    </div>
+		                    <div class="col-md-4">
+	                    		<img class="right-asset" src="./img/img-why.png"/>
+	                    	</div>
+	                    </div>
+	                    <div id="story" class="row paragraph">
+	                    	<div class="col-md-12">
+	                    		<h1>Our story<span></span></h1>
+	                    		<h3 class="center">We started before shopper marketing even existed and today after a little over 25 years, we have expanded to the US, LATAM & Europe, with global clients.</h3>
+	                    	</div>
+	                    	<div class="col-md-3">
+	                    		<img class="left-asset" src="./img/img-our.png"/>
+	                    	</div>
+	                    	<div class="col-md-9">
+	                    		<p>We've been changing people's shopping behavior since before it became a proper expertise, around 24 years ago, when Coca-Cola -one of the biggest corporations in the world- chose us, a small independent agency from Buenos Aires, to help them connect with their shoppers along their path to purchase.</p>
+	                    		<p>We've been one of their worldwide shopper marketing agencies of record for more than 1 years and with them we began to grow as an agency.</p>
+	                    		<p>We learned, adapted and expanded, first to Mexico, then the US, Chile, Brazil and the UK.</p>
+	                    		<p>We are proud to work with top brands, servicing clients across the globe, creating campaigns for Europe, Asia, North America and Latin America</p>
+	                    		<h3>We were very good then. We've become better.</h3>
+	                    	</div>
+	                    </div>
+	                    <div id="capabilities" class="row paragraph">
+	                    	<div class="col-md-12">
+	                    		<h1>Our capabilities<span></span></h1>
+	                    		<h3 class="center">We create shopper marketing campaigns that change people"s behaviors when they"re in the mood to shop, in both the real world and the digital world.</h3>
+	                    	</div>
+	                    	<div class="col-md-9">
+	                    		<p class="capabilities">
+	                    			INSIGHT HUNTING<span> / </span><br />
+	                    			SHOPPER MESSAGING<span> / </span>INDUSTRIAL DESIGN<span> / </span><br />
+	                    			DIGITAL & MOBILE<span> / </span>PROMOTIONS<span> / </span><br />
+	                    			SHOPPER TRIP PLANNING<span> / </span><br />
+	                    			IN STORE CREATIVE<span> / </span>RETAIL EXPERIENCE<span> / </span><br />
+	                    			PACKAGING<span> / </span>SHOPPER COACHING
+	                    			<h3>We turn shoppers into buyers. We call this "Shopper Seduction".</h3>
+	                    			<p>By combining shopper psychology with retail design understanding, we develop creative solutions and deliver fully integrated shopper marketing plans. We focus on identifying and understanding shoppers motivations, plotting their shopper journey, determining where, how and what to communicate trhougout the path to purchase, in order to make the most out of every single touch point.</p>
+	                    		</p>
+	                    	</div>
+	                    	<div class="col-md-3">
+	                    		<img class="left-asset" src="./img/img-capa.png"/>
+	                    	</div>
+	                    </div>
+	                    <div id="who" class="row paragraph">
+	                    	<h1>Who we are<span><span></h1>
+	                    	<h3 class="center">Latin America's fastest growing shopper marketing agency.<br />
+	                    		Independent, free spirited, nimble and entreprenurial.<br />
+	                    		We are, at our heart, a creative agency who loves to seduce shoppers</h3>
+	                    	<div class=" img-container center">
+		                    	<img class="thumb" src="./img/thumb1.jpg"/>
+		                    	<img class="thumb" src="./img/thumb2.jpg"/>
+		                    	<img class="thumb" src="./img/thumb3.jpg"/>
+		                    	<img class="thumb" src="./img/thumb4.jpg"/>
+	                    	</div>
+	                    </div>
 					</div>
                 </div>
             </div>
         </div>
     </body>
 </html>
-<?php /* include("includes/inicio_about.php"); ?>
-<div id="about-why"></div>
-<div id="about">
-	<div id="sidebar">
-		<ul>
-			<li><a href="#about-why" class="smooth">WHY VISUAL LATINA?</a><br/></li>
-			<li><a href="#about-story" class="smooth">OUR STORY</a><br/></li>
-			<li><a href="#about-capabilities" class="smooth">OUR CAPABILITIES</a><br/></li>
-			<li><a href="#about-we-are" class="smooth">WHO WE ARE</a><br/></li>
-		</ul>
-	</div>
-	<div id="contender">
-		<div class="block-1">
-			<img src="images/txt_about1.png" alt="A distinctive view mixed with Latin passion. WE CREATE SHOPPER SOLUTIONS<br/>THAT IMPACT SALES." title="A distinctive view mixed with Latin passion. WE CREATE SHOPPER SOLUTIONS<br/>THAT IMPACT SALES." />
-			<img src="images/about-img1.png" alt="WHY VISUAL LATINA?" title="WHY VISUAL LATINA?" /><br/>
-		</div>
-		<div>
-		<br clear="left" /><br /><br /><br /><br /><br />
-			<div class="box-lef"><img src="images/txt_about2.png" alt="WHY VISUAL LATINA?" title="WHY VISUAL LATINA?" /></div>
-			<div class="box-rig"><img src="images/img-why.png" alt="WHY VISUAL LATINA?" title="WHY VISUAL LATINA?" /></div>
-		</div>
-		<br clear="left" /><br />
-		<div id="about-story"></div>
-		<br /><br /><br /><br /><br /><br /><br />
-		<div class="block-1"><img src="images/txt_about3.png" alt="OUR STORY" title="OUR STORY" /></div>
-		<br clear="left" />
-		<div>
-			<div class="box-lef-our"><img src="images/img-our.png" alt="OUR STORY" title="OUR STORY" /></div>
-			<div class="box-rig-our"><img src="images/txt_about4.png" alt="OUR STORY" title="OUR STORY" /></div>
-		</div>
-		<br clear="left" />
-		<div id="about-capabilities"></div>
-		<br /><br /><br /><br /><br /><br />
-		<div><img src="images/txt_about5.png" alt="OUR CAPABILITIES" title="OUR CAPABILITIES" /><br />
-			<div class="box-lef-capa"><img src="images/txt_about6.png" alt="OUR CAPABILITIES" title="OUR CAPABILITIES" /></div>
-			<div class="box-rig-capa"><img src="images/img-capa.png" alt="OUR STORY" title="OUR STORY" /></div>
-		</div>
-		<br clear="left" />
-		<div id="about-we-are"></div>
-		<br clear="left" /><br /><br /><br /><br /><br /><br /><br />
-		<div>
-			<img src="images/txt_about7.png" alt="WHO WE ARE" title="WHO WE ARE" />
-			<br /><br /><br />
-			<div class="content-thumb">
-				<div class="thumb"><img src="images/thumb1.jpg" alt="WHO WE ARE" title="WHO WE ARE" /></div>
-				<div class="thumb"><img src="images/thumb2.jpg" alt="WHO WE ARE" title="WHO WE ARE" /></div>
-				<div class="thumb"><img src="images/thumb3.jpg" alt="WHO WE ARE" title="WHO WE ARE" /></div>
-				<div class="thumb"><img src="images/thumb4.jpg" alt="WHO WE ARE" title="WHO WE ARE" /></div>			
-			</div>
-			<br clear="left" /><br />
-		</div>
-		<br clear="left" /><br /><br /><br /><br /><br /><br /><br /><br clear="left" /><br /><br /><br />
-	</div>
-<br clear="left" />
-<br/><br/><br/><br/><br/><br/>
-</div>
-<?php include("includes/fin_about.php"); */?>

@@ -1,9 +1,12 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
+*{
+	font-family: 'proximanova-regular';
+}
 body {
   color: #5a5a5a;
+  position: relative;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -252,10 +255,102 @@ img.r-s-i{
 .main{
 	padding-top: 100px;
 }
-.main ul{
+.main ul.smooth{
+	position: fixed;
 	list-style-type: none;
+	top: 120px;
 }
-
+.main ul.smooth li a{
+	color: #00B2B6;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 32px;	
+}
+.main ul.smooth li a:hover{
+	color: #000;
+}
+.main-view div{
+	padding-left: 0 !important;
+}
+.main-view > div{
+	margin: 80px 0 10px;
+}
+.main-view > div .row{
+	margin: 200px 0 10px;
+}
+.main-view > div .row:first-child{
+	margin: 0 0 10px;
+}
+.main-view div.center,
+.main-view img.center{
+	margin: 0 auto;
+	display: block;
+}
+.main-view .cite{
+	font-family: 'georgia';
+	font-size: 32px;
+	font-style: italic;
+	text-align: center;
+}
+.main-view .cite span{
+	background-color: #00B2B6;
+	display: block;
+	width: 160px;
+	height: 6px;
+	margin: 34px auto;
+}
+.main-view h1{
+	font-family: 'proximanova-bold';
+	color: #00B2B6;
+	font-size: 37px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.main-view h1 span{
+	background-color: #00B2B6;
+	display: block;
+	width: 160px;
+	height: 6px;
+	margin: 34px auto;
+}
+.main-view h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+.main-view h3{
+	font-family: 'georgia';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	margin: 30px 0;	
+}
+.main-view h3.center{
+	text-align: center;
+}
+.main-view .paragraph p{
+	font-family: georgia;
+	font-style: italic;
+	font-size: 17px;
+	text-align: justify;
+}
+.main-view .col-md-7{
+	margin-top: 0;
+}
+.main-view p.capabilities{
+	font-size: 26px;
+	font-family: 'proximanova-bold';
+	font-style: normal;
+	text-align: left;
+}
+.main-view p.capabilities span{
+	color: #00B2B6;
+}
+#who .img-container{
+	width: 640px;
+}
 /*======================================
 					SLIDER
 ======================================*/
