@@ -193,9 +193,40 @@ img.r-s-i{
 	top: 108px;
 	left: 110px;
 }
+@media (min-width: 320px){
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #00b0b5;
+	}
+	.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+		color: #00b0b5;
+	}
+	.navbar-nav {
+		background: rgba(250, 250, 250, .8);
+	}
+}
+@media (min-width: 480px){
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #00b0b5;
+	}
+	.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+		color: #00b0b5;
+	}
+	.navbar-nav {
+		background: rgba(250, 250, 250, .8);
+	}
+}
 @media (min-width: 768px){
+	ul.icon-r-social{
+		display: none;
+	}
 	.navbar-wrapper {
 	 	margin-top: 0px; 
+	}
+	.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+		color: #fff;
+	}
+	.navbar-nav {
+		background: none;
 	}
 	a.navbar-brand img.logo {
 		top: 20px;
@@ -241,7 +272,80 @@ img.r-s-i{
 	li a.news{
 		padding-left: 30px;
 	}
-
+}
+@media (min-width: 1024px){
+	.navbar-nav {
+		left: 280px;
+		top: 18px;
+	}
+	ul.icon-r-social{
+		list-style: none;
+		position: absolute;
+		top: 18px;
+		right: 170px;
+		display: block;
+	}
+	li a.news-n{
+		background: url(../img/trompeta.png)no-repeat;
+		display: block;
+		width: 59px;
+		height: 40px;
+		top: -15px;
+		position: absolute;
+		left: 63px;
+	}
+	li.new{
+		position: absolute;
+		top: 11px;
+		right: 25px;
+		color: #fff;
+		font-family: 'georgia';
+		font-style: italic;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	li a.facebook-f{
+		background: url(../img/f-blanco.png)no-repeat;
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin-top: 13px;
+		position: absolute;
+		margin-left: 35px;
+	}
+	li a.twitter-t{
+		background: url(../img/t-blanco.png)no-repeat;
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin-top: 13px;
+		position: absolute;
+		margin-left: 70px;
+	}
+	li a.linkedin-l{
+		background: url(../img/i-blanco.png)no-repeat;
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin-top: 13px;
+		position: absolute;
+		margin-left: 105px;
+	}
+	.caret {
+		display: none;
+	}
+	.navbar-nav>li>.dropdown-menu {
+		display: none;
+	}
+	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+		background:none;
+	}
+}
+@media (min-width: 1200px){
+	.navbar-nav {
+		left: 350px;
+		width: 600px;
+	}
 }
 /*======================================
 					INTERIORES
