@@ -311,7 +311,7 @@ h2.holaContact{
 }	
 h2.holaContact span.hellow{
 	background: #00b0b5;
-	margin-left: 80px;
+	margin: auto;
 	height: 5px;
 	display: block;
 	margin-top: 10px;
@@ -669,6 +669,7 @@ div.container.marketing{
 	margin-left: 0px;
 	margin-right: 0px;
 	width: 100%;
+	margin-top: -30px;
 }
 @media (min-width: 770px){
 	img.icon1 {
@@ -1048,6 +1049,7 @@ div.col-md-5{
 div.row.featurette-hand{
 	background: url(../img/Crop_CHICA.jpg);
 	width: 100%;
+	margin-top: -10px;
 }
 .tittle-women {
 	font-family: 'georgia';
@@ -1071,6 +1073,9 @@ h1.h1Tittle{
 	.tittle-women {
 		border: none;
 	}
+	.row.featurette-hand .col-md-7 {
+		margin-left: 10px;
+	}
 	.tittle-women span.botella{
 		background: #00a8b0;
 		height: 5px;
@@ -1083,15 +1088,13 @@ h1.h1Tittle{
 	div.row.featurette-hand {
 		background: url(../img/Crop_CHICA.jpg) no-repeat;
 		background-size: 100%;
-		margin-top: -10px;
+		margin-top: -30px;
 	}
 	.tittle-women {
 		margin-top: 100px;
 	}
-}
-@media (min-width: 480px){
-	.row.featurette-hand .col-md-7{
-		margin-left: 300px;
+	h1.h1Tittle {
+		margin-bottom: 70px;
 	}
 }
 @media (min-width: 770px){
@@ -1145,6 +1148,70 @@ p.leyend{
 	font-style: italic;
 	margin-bottom: 20px;
 }
+@media (min-width: 480px){
+	h1.titulo {
+		border: none;
+
+	}
+	h1.titulo span.we-loved{
+		background: #00a8b0;
+		height: 5px;
+		display:block;
+		width: 150px;
+		margin: auto;
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	h2.tittle-love {
+		margin-bottom: 30px;
+	}
+}
+@media (min-width: 770px){
+	div.row.featurette-grisc {
+		background: url(../img/etiqueta_hilo.png) no-repeat #cecccf 10px;
+		background-size: 100%;
+		margin-top: -31px;
+	}
+	img.canasto {
+		margin-left: -33%;
+		margin-top: 30px;
+		width: 75%;
+	}
+	p.leyend {
+		margin-left: -103px;
+		width: 239px;
+		text-align: center;
+	}
+}
+@media (min-width: 770px){
+	img.canasto {
+		margin-left: -31px%;
+		margin-top: 30px;
+		width: 75%;
+	}
+	p.leyend {
+		margin-left: -27%;
+	}
+}
+@media (min-width: 1024px){
+	img.canasto {
+		margin-left: -50%;	
+	}
+	p.leyend {
+		margin-left: -43%;
+	}
+}	
+@media (min-width: 1200px){
+	h1.titulo {
+		font-size: 40px;
+	}
+	h2.tittle-love {
+		font-size: 40px;
+	}
+	h2.tittle-love {
+		margin-bottom: 155px;
+	}
+}
 /*======================================
 					HOLA!
 ======================================*/
@@ -1176,6 +1243,52 @@ p.pais{
 }
 a.links{
 	color: #8D8D8D;
+}
+@media (min-width: 480px){
+	h2.holaContact span.hellow {
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	div.container.marketing-fondoUl {
+		width: 100%;
+		margin-top: -30px;
+	}
+	p.contact {
+		margin-bottom: 50px;
+	}
+	.row {
+		margin-bottom: 30px;
+	}
+}
+@media (min-width: 1024px){
+	.col-md-4 {
+		width: 33.33333333%;
+		margin-top: 30px;
+	}
+	.container.marketing-fondoUl .col-md-4 {
+		width: 23.333333%;
+		margin-top: 30px;
+		margin-right: 215px
+	}
+}
+@media (min-width: 1024px){
+	h2.holaContact {
+		font-size: 70px;
+		margin-left: 120px;
+	}
+	p.contact {
+		width: 420px;
+		font-size: 34px;
+	}
+	.container.marketing-fondoUl .col-sm-6.col-md-4 {
+		width: 23.333333%;
+		margin-top: 30px;
+		margin-right: 0px
+	}
+	h2.holaContact span.hellow {
+		margin-left: 35px;
+	}
 }
 /*======================================
 				
