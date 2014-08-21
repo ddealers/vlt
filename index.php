@@ -1,55 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
-          <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  </head>
+  <? include('includes/head.php') ?>
   <body>
-    <div class="navbar-wrapper">
-          <div class="container">
-                 <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-                <div class="container">
-                       <div class="navbar-header">
-                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#"><img src="./img/loglogin.png" class="logo"></a>
-                  </div>
-                  <div class="navbar-collapse collapse">
-                      <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">ABOUT US</a></li>
-                        <li><a href="#about">CLIENTS</a></li>
-                        <li><a href="#contact">WORK</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT<span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                              <li><a href="#" class="facebook">Facebook</a></li>
-                              <li><a href="#" class="twitter">Twitter</a></li>
-                              <li><a href="#" class="linkedin">Linkedin</a></li>
-                            <li><a href="#" class="news">News</a></li>
-                            </ul>
-                        </li>
-                      </ul>
-                              <ul class="icon-r-social">
-                                   <li class="new">News <a href="#" class="news-n"></a> </li>
-                                   <li> <a href="#" class="facebook-f"></a> </li>
-                                   <li> <a href="#" class="twitter-t"></a> </li>
-                                   <li> <a href="#" class="linkedin-l"></a> </li>
-                              </ul>
-                  </div>
-              </div>
-            </div>
-        </div>
-      </div>
+    <? include('includes/navbar.php') ?>
 <!-- Carousel
 ================================================== -->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -150,7 +103,7 @@
             </div>
       </div>
 <!-- ******************************************** -->
-  <div class="container marketing">
+  <div id="#about" class="container marketing">
         <div class="row">
           <h2 class="distinctive">A distinctive view mixed with Latin passion.<span class="background"></span></h2>
           <h1 class="gris">WE CREATE SHOPPER SOLUTIONS THAT IMPACT SALES.</h1>
@@ -158,25 +111,25 @@
               <img src="./img/icon-WHY.png" class="icon1">
               <h2 class="text-tittle">Who we are</h2>
               <p class="contenido">Our vast experience across multiple markets empowers us to understand unique shopping behaviors in many different cultures.</p>
-          <a href="" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
+          <a href="about.php#why" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-6 col-md-3">
               <img src="./img/mundo_marcado.png" class="icon2">
               <h2 class="text-tittle">Our story</h2>
               <p class="contenido">We started before Shopper Marketing even existed and today after  a little over 25 years, we have expanded to the US, LATAM & Europe, with global clients.</p>
-          <a href="" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
+          <a href="about.php#story" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
           </div>
           <div class="col-sm-6 col-md-3">
               <img src="./img/icon-bolsa.png" class="icon3">
               <h2 class="text-tittle">Our capabilities</h2>
               <p class="contenido">We create shopper marketing campaigns that the changes people's  behavior when they're in the mood to shop, in both the real world and the digital world.</p>
-            <a href="" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
+            <a href="about.php#capabilities" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
           </div>
           <div class="col-sm-6 col-md-3">
               <img src="./img/carro_compras.png" class="icon4">
               <h2 class="text-tittle">Who we are</h2>
               <p class="contenido">Latin America's fastest growing shopper marketing agency -independent, creative, free spirited, nimble and entrepreneurial.</p>
-          <a href="" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
+          <a href="about.php#who" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
           </div>
         </div>
     </div>
@@ -193,7 +146,7 @@
     </div>
 
   <hr class="featurette-divider">
-    <div class="row featurette-white">
+    <div id="#clients" class="row featurette-white">
         <div class="col-md-7 col-sm-6">
           <h1 class="seduce">WE <br> SEDUCE <br> SHOPPERS <span class="borde-we"></span></h1>
             <h2 class="tittle-forAll">for all of these <br> great brands</h2>
@@ -296,7 +249,7 @@
     </div>
 
 
-  <div class="container marketing-fondoUl">
+  <div id="#contact" class="container marketing-fondoUl">
       <div class="row">
           <div class="col-md-4">
             <h2 class="holaContact">Hola!<span class="hellow"></span></h2>
