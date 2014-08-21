@@ -380,10 +380,12 @@ img.r-s-i{
 	margin: 80px 0 10px;
 }
 .main-view > div .row{
-	margin: 200px 0 10px;
+	margin: 100px 0 10px;
+	padding-top: 115px;
 }
 .main-view > div .row:first-child{
 	margin: 0 0 10px;
+	padding-top: 0;
 }
 .main-view div.center,
 .main-view img.center{
