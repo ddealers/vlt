@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,7 +12,7 @@
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
     </head>
-    <body data-spy="scroll" data-target=".navbar">
+    <body class="about">
         <div class="navbar-wrapper">
             <div class="container">
                 <div class="navbar navbar-inverse navbar-static-top" role="navigation">

@@ -1,5 +1,5 @@
 $(document).on('ready', function(){
-	$('body').scrollspy({ target: '.navbar-nav' });
+	$('body').scrollspy({ target: '.navbar-collapse' });
 });
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {

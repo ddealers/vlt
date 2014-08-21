@@ -356,6 +356,9 @@ img.r-s-i{
 .interior{
 	background: url(../img/damero2.png);
 }
+.about{
+	background: url(../img/bgpage-about.jpg) repeat-y;	
+}
 .main{
 	padding-top: 100px;
 }
