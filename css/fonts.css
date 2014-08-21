@@ -4,31 +4,30 @@
 
 @font-face {
     font-family: 'proximanova-regular';
-    src: url('proximanova-regular.eot');
-    src: url('proximanova-regular.woff') format('woff'),
-         url('proximanova-regular.ttf') format('truetype'),
-         url('proximanova-regular.svg') format('svg');
+    src: url('../fonts/proximanova-regular.eot');
+    src: url('../fonts/proximanova-regular.ttf') format('truetype'),
+         url('../fonts/proximanova-regular.svg') format('svg'),
+         url('../fonts/proximanova-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'proximanova-bold';
-    src: url('proximanova-bold.eot');
-    src: url('proximanova-bold.woff') format('woff'),
-         url('proximanova-bold.ttf') format('truetype'),
-         url('proximanova-bold.svg') format('svg');
+    src: url('../fonts/proximanova-bold.eot');
+    src: url('../fonts/proximanova-bold.ttf') format('truetype'),
+         url('../fonts/proximanova-bold.svg') format('svg'),
+         url('../fonts/proximanova-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+/*
 @font-face {
     font-family: 'georgia';
-    src: url('georgia.eot');
-    src: url('georgia.woff') format('woff'),
-         url('georgia.ttf') format('truetype'),
-         url('georgia.svg') format('svg');
+    src: url('../fonts/georgia.eot');
+    src: url('../fonts/georgia.ttf') format('truetype'),
+         url('../fonts/georgia.svg') format('svg'),
+         url('../fonts/georgia.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+*/
