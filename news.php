@@ -1,4 +1,76 @@
 <?php
+require_once('lib/PDO/config.php');
+require_once('lib/PDO/PDODB.php');
+require_once('lib/PDO/PDOResult.php');
+class News extends PDODB{
+    public function __construct(){
+        parent::__construct();
+        $this->table = 'articles';
+        $this->record = false;
+    }
+    public function all(){
+        return $this->_where("id_article,estatus,title,intro,descr,pic,type", "estatus=1", 10, "id_article DESC");
+    }
+}
+$n = new News();
+$news = $n->all();
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    </head>
+    <body class="interior">
+        <div class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"><img src="./img/loglogin.png" class="logo"></a>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="./#about">ABOUT US</a></li>
+                                <li><a href="./#clients">CLIENTS</a></li>
+                                <li><a href="./#work">WORK</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#" class="facebook">Facebook</a></li>
+                                        <li><a href="#" class="twitter">Twitter</a></li>
+                                        <li><a href="#" class="linkedin">Linkedin</a></li>
+                                        <li><a href="#" class="news">News</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<?
+/*
+$db = new Database();
+$db->connect();
+$db->exec("select dateReg,id_article,estatus,title,intro,descr,pic,type from articles where estatus=1 order by id_article desc LIMIT 0,10");
+$result = $db->getResult();
+$news = array_Values($result);
+var_dump($news);
+/*
 include("includes/inicio_news.php");
 include('07853(%ITJ.php');
 $db = new Database();
@@ -78,3 +150,4 @@ $news = array_Values($result);
     }
 </script>
 <?php include("includes/fin_news.php"); ?>
+*/

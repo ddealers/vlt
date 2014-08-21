@@ -29,6 +29,7 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+  height: 50px;
 }
 
 
@@ -39,6 +40,12 @@ body {
 .carousel {
   height: 500px;
   margin-bottom: 60px;
+  margin-top: 50px;
+}
+@media (min-width: 768px){
+	.carousel {
+		margin-top:90px;
+	}
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -102,8 +109,9 @@ body {
     margin-top: 20px;
   }
   .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
@@ -118,10 +126,12 @@ body {
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 20px;
-    font-size: 21px;
+    font-size: 12px;
     line-height: 1.4;
   }
-
+  .tittle {
+		font-size: 27px;
+	}
   .featurette-heading {
     font-size: 50px;
   }
@@ -136,7 +146,7 @@ body {
 					NAV
 ======================================*/
 a.navbar-brand img.logo{
-	width: 65%;
+	width: 200px;
 	position: absolute;
 	top: 5px;
 	left: 4px;
@@ -183,9 +193,75 @@ img.r-s-i{
 	top: 108px;
 	left: 110px;
 }
+@media (min-width: 768px){
+	.navbar-wrapper {
+	 	margin-top: 0px; 
+	}
+	a.navbar-brand img.logo {
+		top: 20px;
+	}
+	.navbar-nav{
+		position: absolute;
+		right: 60px;
+		top: 15px;
+	}
+	.navbar-wrapper .navbar .container {
+		padding-right: 0px; 
+		padding-left: 0px;
+		width: 100%;
+		height: 90px;
+	}
+	.navbar-wrapper .navbar {
+		border-radius: 0px;
+		margin-bottom: 0px;
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+		background: none;
+		border-bottom: 5px solid;
+		padding-bottom: 7px;
+	}
+	.navbar-wrapper {
+		position: fixed; 
+	}
+	.navbar-inverse .navbar-nav>li>a {
+		color: #fff;
+	}
+	li a.facebook{
+		background: url(../img/f.png) no-repeat;
+		padding-left: 30px;
+	}
+	li a.twitter{
+		background: url(../img/t.png) no-repeat;
+		padding-left: 30px;
+	}
+	li a.linkedin{
+		background: url(../img/i.png) no-repeat;
+		padding-left: 30px;
+	}
+	li a.news{
+		padding-left: 30px;
+	}
+
+}
 /*======================================
 					SLIDER
 ======================================*/
+.slider-0{
+	background: url(../img/fondo_rojo.png)no-repeat;
+	background-size: cover;
+}
+.slider-1{
+	background: url(../img/fondo_morado.jpg)no-repeat;
+	background-size: cover;
+}
+.slider-2{
+	background: url(../img/fondo_azul.jpg)no-repeat;
+	background-size: cover;
+}
+.slider-3{
+	background: url(../img/Base_Colgate.jpg)no-repeat;
+	background-size: cover;
+}
 .tittle{
 	font-family: 'georgia';
 	font-style: italic;
@@ -228,7 +304,6 @@ h2.holaContact span.hellow{
 	margin-top: 10px;
 	width: 100px;
 }
-
 h2.tittle-forAll {
 	font-size: 20px;
 	margin: 0px 0px 10px 10px;
@@ -240,6 +315,15 @@ h2.tittle-forAll {
 p {
 	font-size: 13px;
 	text-shadow: none;
+}
+h1 span.borde-cocacola{
+	height: 5px;
+	background: #fff;
+	width: 120px;
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 p.tittle-coca-cola{
 	font-size: 13px;
@@ -257,7 +341,6 @@ div.carousel-caption{
 }
 .carousel .item{
 	height: 550px;
-	background: url(../img/fondo_rojo.png);
 }
 .carousel-inner > .item > img {
 	min-width: 0px;
@@ -287,6 +370,39 @@ h1 span{
 	font-size: 13px;
 	margin: 0px 10px 0px 0px;
 }
+@media (min-width: 480px){
+	div.carousel-caption img.imagen {
+		width: 65%;
+	}
+}
+@media (min-width: 770px){
+	.carousel-caption.row{
+		left: 0px;
+		right: 0px;
+		z-index: 0;
+		padding: 0 3%;
+	}
+	.carousel-control {
+		width: 3%;
+	}
+	div.carousel-caption img.imagen {
+		width: 100%;
+		margin-top: 60px;
+		max-width: 580px;
+	}
+	.col-sm-4 {
+		width: 33.33333333%;
+		margin-top: 60px;
+	}
+	div.carousel-caption {
+		top: 0px;
+	}
+}
+@media (min-width: 970px){
+	.col-sm-4 {
+		margin-top: 100px;
+	}
+}
 /*======================================
 					DISPOSITIVOS
 ======================================*/
@@ -304,14 +420,14 @@ div.row.featurette{
 	background: #596a7a;
 	margin-top: -10px;
 }
-div.col-md-7 h3.verde{
+h3.verde{
 	font-size: 20px;
 	font-family: 'georgia';
 	font-style: italic;
 	color: #00b0b5;
 	text-align: center;
 }
-div.col-md-7 h2.featurette-heading{
+h2.featurette-heading{
 	font-weight: bold;
 	color: #00b0b5;
 	text-align: center;
@@ -325,6 +441,8 @@ p.porcentaje {
 	text-align: center;
 	font-size: 11px;
 	float: left;
+	font-style: italic;
+	padding-bottom: 40px;
 }
 p.porcentaje2 {
 	color: #fff;
@@ -332,20 +450,142 @@ p.porcentaje2 {
 	text-align: center;
 	font-size: 11px;
 	float: right;
+	font-style: italic;
 }
 p.porcentaje span{
 	font-size: 58px;
-	font-weight: 300;
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'proximanova-bold';
 }
 p.porcentaje2 span{
 	font-size: 58px;
-	font-weight: 300;
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'proximanova-bold';
 }
 p.liga{
 	font-size: 8px;
 	color: #fff;
 	padding-top: 56%;
 	text-align: center;
+}
+@media (min-width: 480px){
+	p.porcentaje {
+		margin-left: 50px;
+		width: 160px;
+	}
+	p.porcentaje2 {
+		margin-right: 50px;
+		width: 171px;
+	}
+		h2 span.pies{
+		height: 5px;
+		background: #00b0b5;
+		width: 120px;
+		margin: auto;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	h2 span.cabeza{
+		height: 5px;
+		background: #00b0b5;
+		width: 120px;
+		margin: auto;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	h2.featurette-heading {
+		border: none;
+	}
+	p.liga {
+		padding-top: 38%;
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 770px){
+	div.row.featurette {
+		background: url(../img/globo_texto.png) #596a7a no-repeat 10px;
+		background-size: 100%;
+	}
+	.img-responsive{
+		margin-left: 10%;
+		padding-top: 105px;
+		padding-bottom: 30%;
+	}
+	p.porcentaje {
+		color: #5a5a5a;
+		width: 100px;
+		padding-bottom: 0px;
+	}
+	p.porcentaje2 {
+		color: #5a5a5a;
+		width: 100px;
+	}
+	h2.featurette-heading {
+		font-size: 25px;
+		padding: 0;
+		margin: auto;
+	}
+	h3.verde {
+		margin-top: 10px;
+	}
+	p.liga {
+		color: #5a5a5a;
+		padding-top: 155px;
+	}
+	div.bloque{
+		position: absolute;
+		width: 334px;
+		left: -95px;
+		right: 0px;
+		bottom: 0;
+		top: 65px;
+		margin: auto;
+	}
+}
+@media (min-width: 1200px){
+	h3.verde {
+		font-size: 40px;
+	}
+	h2.featurette-heading {
+		font-size: 40px;
+	}
+	.img-responsive {
+		margin-left: 20%;
+	}
+	div.bloque {
+		position: absolute;
+		width: 445px;
+	}
+	p.porcentaje {
+		width: 170px;
+	}
+	p.porcentaje2 {
+		width: 170px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.tittle {
+		font-size: 40px;
+	}
+	.carousel-caption p {
+		font-size: 14px;
+	}
+	.col-sm-8 {
+		position: absolute;
+		right: -45px;
+	}
+	.col-sm-4 {
+		margin-left: 55px;
+	}
+	div.row.featurette {
+		background: url(../img/globo_texto.png) #596a7a no-repeat 70px;
+		background-size: 90%;
+	}
 }
 /*======================================
 					ICONS
@@ -413,15 +653,85 @@ p.contenido{
 }
 div.container.marketing{
 	background: url(../img/damero2.png);
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+@media (min-width: 770px){
+	img.icon1 {
+		width: 80%;
+	}
+	img.icon2 {
+		width: 76%;
+	}
+	img.icon3 {
+		width: 75%;
+	}
+	img.icon4 {
+		width: 70%;
+	}
+	h1.gris {
+		padding-bottom: 35px;
+	}
+}
+@media (min-width: 1024px){
+	h2.distinctive {
+		padding-top: 70px;
+	}
+	h1.gris {
+		padding-bottom: 70px;
+		width: 429px;
+		margin: auto;
+	}
+	img.icon2 {
+		width: 73%;
+	}
+	img.icon3 {
+		width: 80%;
+	}
+	img.icon4 {
+		width: 73%;
+	}
+}
+@media (min-width: 1200px){
+	h1.gris {
+		width: 707px;
+		margin: auto;
+		font-size: 40px;
+	}
+	h2.distinctive {
+		padding-top: 100px;
+		font-size: 40px;
+	}
+	h1.gris {
+		width: 707px;
+		margin: auto;
+		font-size: 40px;
+		padding-bottom: 100px;
+	}
+	div.col-md-3 h2 {
+		font-size: 30px;
+	}
+	img.icon1 {
+		width: 55%;
+	}
+	img.icon2 {
+		width: 50%;
+	}
+	img.icon3 {
+		width: 55%;
+	}
+	img.icon4 {
+		width: 50%;
+	}
 }
 /*======================================
 					CORAZÓN
 ======================================*/
 img.heart{
-	width: 100%;
-	margin: auto;
-	padding-top: 20px;
-	margin-bottom: 40px;
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 30px;
 }
 img.logos-marcas{
 	width: 100%;
@@ -430,7 +740,7 @@ img.logos-marcas{
 	margin-bottom: 40px;
 }
 div.row.featurette-coca {
-	background: #00b0b5;
+	background: #00a8b0;
 }
 div.col-md-7 h3.normal {
 	font-size: 20px;
@@ -438,13 +748,96 @@ div.col-md-7 h3.normal {
 	font-style: italic;
 	text-align: center;
 }
-div.col-md-7 h2.featurette-heading-rojo {
+h2.featurette-heading-rojo {
 	color: #e2202c;
 	font-weight: bold;
 	text-align: center;
 	border-bottom: 5px solid;
 	border-top: 5px solid;
 	padding: 10px;
+}
+h3.normal{
+	font-style: italic;
+}
+@media (min-width: 480px){
+	h2.featurette-heading-rojo {
+		color: #e2202c;
+		font-weight: bold;
+		text-align: center;
+		border: none;
+		padding: 10px;
+	}
+	h2.featurette-heading-rojo span.rojo-heart {
+		height: 5px;
+		background: #e2202c;
+		width: 120px;
+		margin: auto;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	h2.featurette-heading-rojo span.rojo-sub {
+		height: 5px;
+		background: #e2202c;
+		width: 120px;
+		margin: auto;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	p.tittle-coca-cola {
+		padding-bottom: 45px;
+	}
+}
+@media (min-width: 770px){
+	img.heart {	
+		padding-bottom: 30px;
+	}
+	div.row.featurette-coca {
+		background: url(../img/hoja.png) #00a8b0 no-repeat 10px;
+		background-size: 100%;
+	}
+	img.heart {
+		margin-left: 40%;
+	}
+	h2.featurette-heading-rojo {
+		font-size: 25px;
+	}
+	.row.featurette-coca .col-sm-6 {
+		width: 50%;
+		margin-top: 60px;
+		margin-bottom: 40px;
+		padding-top: 32px;
+	}
+}
+@media (min-width: 1200px){
+	div.col-md-7 h3.normal {
+		font-size: 40px;
+	}
+	h2.featurette-heading-rojo {
+		font-size: 40px;
+	}
+	div.row.featurette-coca {
+		background-size: 85%;
+	}
+	img.heart {
+		margin-left: 40%;
+		width: 70%;
+	}
+		div.row.featurette-coca {
+		background-size: 100%;
+	}
+	a.navbar-brand img.logo {
+		top: 13px;
+		width: 20%;
+		margin-left: 43px;
+	}
+	.navbar-nav>li {
+		font-size: 18px;
+	}
+	.navbar-nav {
+		right: 420px;
+	}
 }
 /*======================================
 					LOGOS
@@ -463,6 +856,42 @@ h1.seduce{
 	margin-top: 40px;
 	padding-bottom: 10px;
 	text-align: center;
+}
+@media (min-width: 480px){
+	h1.seduce span.borde-we{
+		background: #00a8b0;
+		height: 5px;
+		width: 150px;
+		margin: auto;
+		display: block;
+		margin-top: 20px;
+	}
+	h1.seduce{
+		border: none;
+	}	
+}
+@media (min-width: 770px){
+	h1.seduce {
+		margin-top: 85px;
+	}
+	img.logos-marcas {
+		margin-left: -100px;
+	}
+}
+@media (min-width: 1024px){
+	img.logos-marcas {
+		padding-top: 100px;
+		margin-bottom: 100px;
+	}
+	.col-md-7 {
+		margin-top: 85px;
+	}
+	h2.tittle-forAll {
+		font-size: 40px;
+	}
+	img.logos-marcas {
+		margin-left: -135px;
+	}
 }
 /*======================================
 					CARS
@@ -492,10 +921,55 @@ h1.solution-every span.text-green{
 	font-weight: bold;
 	padding-left: 10px;
 }
+@media (min-width: 480px){
+	img.car {
+		margin-left: 115px;
+	}
+	h2.tittle-all span.verde{
+		background: #00a8b0;
+		height: 5px;
+		width: 150px;
+		margin: auto;
+		display: block;
+		margin-top: 20px;
+	}
+	h1.solution-every {
+		border-top: none;
+	}
+}
+@media (min-width: 770px){
+	.featurette-divider {
+		background: url(../img/hoja-papel.png) no-repeat #596a7a 10px;
+		background-size: 100%;
+	}
+	.tittle-all {
+		color: #5a5a5a;
+	}
+	h1.solution-every {
+		color: #5A5A5A;
+	}
+	img.car {
+		margin-left: 60%;
+		margin-bottom: 130px;
+	}
+	.row.featurette-divider.car .col-sm-6 {
+		margin-right: -79px;
+		margin-top: 75px;
+	}
+}
+@media (min-width: 1200px){
+	h1.solution-every span.text-green {
+		font-size: 40px;
+	}
+	.tittle-all {
+		font-size: 40px;
+	}
+}
+
 /*======================================
 					MARCAS
 ======================================*/
-h2.tittle-solution{
+/*h2.tittle-solution{
 	font-family: 'georgia';
 	font-style: italic;
 	text-align: center;
@@ -539,8 +1013,8 @@ p.leyenda{
 	margin: 0px 20px 0px 20px;
 }
 div.row.featurette-back{
-background: #fff;
-margin-top: -10px;
+	background: #fff;
+	margin-top: -10px;
 }
 div.col-md-7-white{
 	background: #fff;
@@ -556,7 +1030,7 @@ div.col-md-5{
 	padding: 0px;
 }
 /*======================================
-					MARCAS
+					MANO
 ======================================*/
 div.row.featurette-hand{
 	background: url(../img/Crop_CHICA.jpg);
@@ -580,6 +1054,57 @@ h1.h1Tittle{
 	text-align: center;
 	margin-bottom: 167px;
 }
+@media (min-width: 480px){
+	.tittle-women {
+		border: none;
+	}
+	.tittle-women span.botella{
+		background: #00a8b0;
+		height: 5px;
+		display:block;
+		width: 150px;
+		margin: auto;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	div.row.featurette-hand {
+		background: url(../img/Crop_CHICA.jpg) no-repeat;
+		background-size: 100%;
+		margin-top: -10px;
+	}
+	.tittle-women {
+		margin-top: 100px;
+	}
+}
+@media (min-width: 480px){
+	.row.featurette-hand .col-md-7{
+		margin-left: 300px;
+	}
+}
+@media (min-width: 770px){
+	.row.featurette-hand .col-md-7{
+		margin-left: 300px;
+	}
+}
+@media (min-width: 1024px){
+	.row.featurette-hand .col-md-7{
+		margin-left: 400px;
+	}
+}
+@media (min-width: 1024px){
+	.tittle-women {
+		margin-top: 100px;
+		font-size: 40px;
+	}
+	h1.h1Tittle {
+		font-size: 40px;
+	}
+	.row.featurette-hand .col-md-7 {
+		margin-left: 500px;
+	}
+}
+
+
 /*======================================
 					CANASTO
 ======================================*/
@@ -2206,4 +2731,88 @@ img.play{
 /*======================================
 				
 ======================================*/
-
+/*.navbar-wrapper {
+	margin-top: 0px;
+	position: fixed;
+}
+.navbar-wrapper .container {
+	padding-right: 0px;
+	padding-left: 0px; 
+	width: 100%;
+	height: 90px;
+}
+.navbar-nav {
+	float: right;
+	margin-right: 40px;
+}
+a.navbar-brand img.logo {
+	width: 19%;
+	position: absolute;
+	top: 20px;
+	left: 27px;
+}
+.navbar-nav {
+	float: left;
+	margin-left: 325px;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	color: #fff;
+	background: none;
+	border-bottom: 5px solid #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	padding-left: 27px;
+}
+.navbar-wrapper .navbar {
+	border-radius: 0px;
+}
+.carousel .item {
+	background: url(../img/fondo_rojo.png);
+	height: 670px;
+}
+.carousel-indicators {
+	top: 600px;
+}
+div.carousel-caption {
+	font-size: 25px;
+	font-weight: normal;
+	margin-top: 145px;
+	text-shadow: none;
+	width: 377px;
+	top: 40px;
+}
+.carousel-control.left {
+	height: 670px;
+}
+.carousel-control.right {
+	height: 670px;
+}
+div.carousel-caption img.imagen {
+	width: 100%;
+	position: absolute;
+	top: 100px;
+	left: 450px;
+}
+.carousel-caption p {
+	font-size: 12px;
+	text-align: left;
+	width: 300px;
+}
+.tittle {
+	font-size: 30px;
+	margin-top: 25px;
+}
+h1, .h1 {
+	font-size: 34px;
+}
+h1 span.borde-cocacola{
+	height: 5px;
+	width: 135px;
+	background: #fff;
+	margin: auto;
+	display: block;
+	margin-top: 25px;
+}*/
