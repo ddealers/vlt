@@ -244,6 +244,19 @@ img.r-s-i{
 
 }
 /*======================================
+					INTERIORES
+======================================*/
+.interior{
+	background: url(../img/damero2.png);
+}
+.main{
+	padding-top: 100px;
+}
+.main ul{
+	list-style-type: none;
+}
+
+/*======================================
 					SLIDER
 ======================================*/
 .slider-0{

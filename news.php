@@ -60,6 +60,21 @@ $news = $n->all();
                 </div>
             </div>
         </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <ul>
+                        <li><a href="#">WHY VISUAL LATINA</a></li>
+                        <li><a href="#">OUR STORY</a></li>
+                        <li><a href="#">OUR CAPABILITIES</a></li>
+                        <li><a href="#">WHO WE ARE</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    
+                </div>
+            </div>
+        </div>
     </body>
 </html>
 <?
