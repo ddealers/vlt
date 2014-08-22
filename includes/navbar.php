@@ -16,8 +16,9 @@
                       <li><a class="page-scroll" href="#about">ABOUT US</a></li>
                       <li><a class="page-scroll" href="#clients">CLIENTS</a></li>
                       <li><a class="page-scroll" href="#work">WORK</a></li>
+                      <li><a class="page-scroll" href="#contact">CONTACT</a></li>
                       <li class="dropdown">
-                            <a href="#contact" class="dropdown-toggle" data-toggle="dropdown">CONTACT<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle hidden-md hidden-lg" data-toggle="dropdown">SOCIAL<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                               <li><a href="#" class="facebook">Facebook</a></li>
                               <li><a href="#" class="twitter">Twitter</a></li>

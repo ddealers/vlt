@@ -69,24 +69,6 @@ body {
 }
 
 
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-md-3 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-md-3 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-
 /* Featurettes
 ------------------------- */
 
@@ -876,7 +858,7 @@ div.container.marketing{
 	margin-left: 0px;
 	margin-right: 0px;
 	width: 100%;
-	margin-top: -30px;
+	/*margin-top: -30px;*/
 }
 @media (min-width: 770px){
 	img.icon1 {
@@ -1069,7 +1051,7 @@ h3.normal{
 }
 div.row.featurette-white {
 	background: #fff;
-	margin-top: -21px;
+	/*margin-top: -21px;*/
 }
 h1.seduce{
 	border-bottom: 5px solid #00b0b5;
@@ -1117,6 +1099,9 @@ h1.seduce{
 /*======================================
 					CARS
 ======================================*/
+.featurette-divider.car{
+	padding-bottom: 10px;
+}
 img.car {
 	width: 44%;
 	padding-top: 40px;
@@ -1190,7 +1175,7 @@ h1.solution-every span.text-green{
 /*======================================
 					MARCAS
 ======================================*/
-/*h2.tittle-solution{
+h2.tittle-solution{
 	font-family: 'georgia';
 	font-style: italic;
 	text-align: center;
@@ -1205,25 +1190,21 @@ h1.solution-text{
 }
 img.marca-co{
 	width: 100%;
-	padding-bottom: 10px;
 }
 img.marca-p{
 	width: 100%;
-	padding-bottom: 10px;
 }
 img.marca-z{
 	width: 100%;
-	padding-bottom: 10px;
 }
 img.marca-c{
 	width: 100%;
-	padding-bottom: 10px;
 }
 p.marcas{
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
-	margin-bottom: 0px;
+	margin: 20% 0 0;
 }
 p.leyenda{
 	font-weight: bold;
@@ -1231,9 +1212,9 @@ p.leyenda{
 	text-align: center;
 	border-top: 5px solid #00b0b5; 
 	padding-bottom: 10px;
-	margin: 0px 20px 0px 20px;
+	margin: 0 20px;
 }
-div.row.featurette-back{
+div.row.featurette-clients{
 	background: #fff;
 	margin-top: -10px;
 }
@@ -1243,12 +1224,30 @@ div.col-md-7-white{
 div.col-md-5-back-white{
 	background: #fff;
 }
-div.row.featurette.y {
+div.row.featurette-clients.y {
 	background: #fff;
 
 }
 div.col-md-5{
 	padding: 0px;
+}
+#work .col-md-4{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#work .col-md-4 .addon{
+	background: rgba(0,176,182,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	color: #fff;
+}
+#work .tittle{
+	margin-top: 40px;
 }
 /*======================================
 					MANO
@@ -1327,13 +1326,40 @@ h1.h1Tittle{
 	}
 }
 
+/*======================================
+					NEWS
+======================================*/
+div.news h3{
+	text-align: center;
+	color: #00B1B5;
+	font-style: italic;
+	font-family: georgiaregular;
+	font-weight: bold;
+	font-size: 20px;
+}
+div.news h3 .green-line{
+	width: 87px;
+	height: 3px;
+	background-color: #00B1B5;
+	display: block;
+	position: relative;
+	bottom: 5px;
+	margin: 10px auto 0;
+}
+@media(min-width: 770px){
+	div.news h3 .green-line{
+		display: inline-block;
+		margin: 0 5px;
+	}
+}
+
 
 /*======================================
 					CANASTO
 ======================================*/
 div.row.featurette-grisc {
 	background: #cecccf;
-	margin-top: -10px;
+	/*margin-bottom: 30px;*/
 }
 h1.titulo {
 	font-size: 25px;
@@ -1377,7 +1403,7 @@ p.leyend{
 	div.row.featurette-grisc {
 		background: url(../img/etiqueta_hilo.png) no-repeat #cecccf 10px;
 		background-size: 100%;
-		margin-top: -31px;
+		/*margin-top: -31px;*/
 	}
 	img.canasto {
 		margin-left: -33%;
@@ -1459,13 +1485,14 @@ a.links{
 	}
 	div.container.marketing-fondoUl {
 		width: 100%;
-		margin-top: -30px;
+		/*margin-top: -30px;*/
+		padding-top: 30px;
 	}
 	p.contact {
 		margin-bottom: 50px;
 	}
 	.row {
-		margin-bottom: 30px;
+		/*margin-bottom: 30px;*/
 	}
 }
 @media (min-width: 1024px){
@@ -1477,6 +1504,9 @@ a.links{
 		width: 23.333333%;
 		margin-top: 30px;
 		margin-right: 215px
+	}
+	.row {
+		margin-bottom: 0px;
 	}
 }
 @media (min-width: 1024px){
