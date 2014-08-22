@@ -1642,7 +1642,6 @@ a.links-d{
 img.play{
 	margin-left: 10px;
 }
-
 /*---------------------------------
 				NEWS
 ---------------------------------*/
@@ -1680,19 +1679,22 @@ img.play{
 }
 #news .article ul.social li{
 	display: inline-block;
+}
+#news .article ul.social li a{
+	display: block;
 	width: 30px;
 	height: 30px;
 }
-#news .article ul.social li.fb{
+#news .article ul.social li a.fb{
 	background: url(../img/icon-facebook.jpg) no-repeat;
 }
-#news .article ul.social li.tw{
+#news .article ul.social li a.tw{
 	background: url(../img/icon-twitter.jpg) no-repeat;
 }
-#news .article ul.social li.in{
+#news .article ul.social li a.in{
 	background: url(../img/icon-in.jpg) no-repeat;
 }
-#news .article ul.social li span{
+#news .article ul.social li a span{
 	display: none;
 }
 @media (min-width: 320px){

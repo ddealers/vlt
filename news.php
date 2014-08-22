@@ -57,9 +57,9 @@ if($id){
                                         <? echo $new->descr ?>
                                     </div>
                                     <ul class="social">
-                                        <li class="fb"><span>Facebook</span></li>
-                                        <li class="tw"><span>Twitter</span></li>
-                                        <li class="in"><span>Linkedin</span></li>
+                                        <li><a href="<? echo $new->id_article ?>" class="fb"><span>Facebook</span></a></li>
+                                        <li><a href="<? echo $new->id_article ?>" class="tw"><span>Twitter</span></a></li>
+                                        <li><a href="<? echo $new->id_article ?>" class="in"><span>Linkedin</span></a></li>
                                     </ul>
                                 </div>
                             </div>
