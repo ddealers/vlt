@@ -1,6 +1,20 @@
 $(document).on('ready', function(){
 	$('body').scrollspy({ target: '.navbar-collapse' });
+	$('.addon').css({display:'none'});
 });
+
+//jQuery for show addon
+$(function() {
+	$('.moreinfo').on('mouseenter', function(event) {
+		$more = $(this);
+    	$more.children('.addon').fadeIn(500);
+    });
+    $('.moreinfo').on('mouseleave', function(event) {
+    	$more = $(this);
+    	$more.children('.addon').fadeOut(500);
+    });
+});
+
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
