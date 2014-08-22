@@ -23,11 +23,11 @@ $(function() {
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
+        var $anchor = $(this),
+        	$link = $anchor.attr('href').replace('index.php','');
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($link).offset().top
         }, 1500);
         event.preventDefault();
     });
 });
-//jQuery para galleria de botones

@@ -637,6 +637,7 @@ h1 span{
 .row {
 	margin-left: 0px;
 	margin-right: 0px;
+	padding-top: 60px;
 }
 div.row.featurette{
 	background: #596a7a;
@@ -1600,9 +1601,11 @@ a.links-d{
 	p.contact {
 		margin-bottom: 50px;
 	}
+	/*
 	.row {
-		/*margin-bottom: 30px;*/
+		margin-bottom: 30px;
 	}
+	*/
 }
 @media (min-width: 1024px){
 	.col-md-4 {
