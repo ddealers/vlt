@@ -20,18 +20,18 @@
                       <li class="dropdown">
                             <a href="#" class="dropdown-toggle hidden-lg" data-toggle="dropdown">SOCIAL<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                              <li><a href="https://www.facebook.com/VisualLatina" class="facebook">Facebook</a></li>
-                              <li><a href="https://twitter.com/VisualLatina" class="twitter">Twitter</a></li>
-                              <li><a href="https://www.linkedin.com/company/visual-latina" class="linkedin">Linkedin</a></li>
+                              <li><a href="https://www.facebook.com/VisualLatina" target="_blank" class="facebook">Facebook</a></li>
+                              <li><a href="https://twitter.com/VisualLatina" target="_blank" class="twitter">Twitter</a></li>
+                              <li><a href="https://www.linkedin.com/company/visual-latina" target="_blank" class="linkedin">Linkedin</a></li>
                               <li><a href="news.php" class="news">News</a></li>
                             </ul>
                         </li>
                       </ul>
                       <ul class="icon-r-social">
                         <li class="new">News <a href="news.php" class="news-n"></a></li>
-                        <li><a href="https://www.facebook.com/VisualLatina" class="facebook-f"></a></li>
-                        <li><a href="https://twitter.com/VisualLatina" class="twitter-t"></a></li>
-                        <li><a href="https://www.linkedin.com/company/visual-latina" class="linkedin-l"></a></li>
+                        <li><a href="https://www.facebook.com/VisualLatina" target="_blank" class="facebook-f"></a></li>
+                        <li><a href="https://twitter.com/VisualLatina" target="_blank" class="twitter-t"></a></li>
+                        <li><a href="https://www.linkedin.com/company/visual-latina" target="_blank" class="linkedin-l"></a></li>
                       </ul>
                   </div>
                 </div>
