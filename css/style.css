@@ -1417,21 +1417,25 @@ div.news .card-content .row{
 div.news .card-content .row p{
 	text-align: center;
 }
-div.news .card-content .row .col-sm-4{
+div.news .card-content .border{
 	margin: 0;
 	border-left: 1px #999 solid;
+	float: right;
+	text-align: center;
 }
 div.news .col-sm-12 div{
 	margin-top: 20px;
+	padding: 0;
 }
 div.news .newsletter{}
 div.news .campo{
 	width: 250px;
 	background: #fff;
 	height: 57px;
-	border: 1px solid #344;
+	border: 3px solid #344;
 	padding: 0 10px;
 	font-style: italic;
+	display: inline-block;
 }
 div.news .button{
 	background: transparent;
