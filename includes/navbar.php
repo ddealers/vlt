@@ -13,10 +13,10 @@
                   </div>
                   <div class="navbar-collapse collapse">
                       <ul class="nav navbar-nav">
-                      <li><a class="page-scroll" href="#about">ABOUT US</a></li>
-                      <li><a class="page-scroll" href="#clients">CLIENTS</a></li>
-                      <li><a class="page-scroll" href="#work">WORK</a></li>
-                      <li><a class="page-scroll" href="#contact">CONTACT</a></li>
+                      <li><a class="page-scroll" href="index.php#about">ABOUT US</a></li>
+                      <li><a class="page-scroll" href="index.php#clients">CLIENTS</a></li>
+                      <li><a class="page-scroll" href="index.php#work">WORK</a></li>
+                      <li><a class="page-scroll" href="index.php#contact">CONTACT</a></li>
                       <li class="dropdown">
                             <a href="#" class="dropdown-toggle hidden-md hidden-lg" data-toggle="dropdown">SOCIAL<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
