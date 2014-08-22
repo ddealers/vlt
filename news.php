@@ -32,7 +32,7 @@ if($id){
                 </div>
                 <div class="col-xs-12 col-md-8">
                     <div class="col-md-12 new-info">
-                        <? if($new): ?>
+                        <? if(isset($new)): ?>
                             <div class="article row box">
                                 <div class="date col-xs-12"><? echo date('F Y',strtotime($new->dateReg)) ?></div>
                                 <div class="title col-xs-12"><? echo $new->title ?></div>
