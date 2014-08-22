@@ -214,30 +214,27 @@
 					<h3><i class="green-line"></i>Read our latest shopper news or subscribe to our newsletter<i class="green-line"></i></h3>
 				</div>
 				<div class="card col-sm-12 col-md-4">
-					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-					<p>PROJECTS</p>
-					<p>Visual Latina abre oficinas en Puerto Rico</p>
-					<a href="">SEE MORE</a>
-					<p>July 2014</p>
+					<div class="card-img">
+						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image">
+					</div>
+					<div class="card-content">
+						<h5>PROJECTS</h5>
+						<div class="card-abstract">Visual Latina abre oficinas en Puerto Rico</div>
+						<a href="">SEE MORE<img src="./img/play2.png" class="play"></a>
+						<div class="row">
+							<p class="border col-sm-8"></p>
+							<p class="border col-sm-4">July 2014</p>
+						</div>
+					</div>
 				</div>
-				<div class="card col-sm-12 col-md-4">
-					<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-					<p>PROJECTS</p>
-					<p>Visual Latina abre oficinas en Puerto Rico</p>
-					<a href="">SEE MORE</a>
-					<p>July 2014</p>
+				<div class="col-sm-12">
+					<div class="newsletter col-sm-offset-2 col-sm-5">
+						<input type="text" class="campo" placeholder="Enter your email adress to get our newsletter"><input type="submit" class="button" value="SUBMIT">
+					</div>
+					<div class="col-sm-2">
+						<a class="more-news" href="news.php">More News</a>
+					</div>
 				</div>
-				<div class="card col-sm-12 col-md-4">
-					<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-					<p>PROJECTS</p>
-					<p>Visual Latina abre oficinas en Puerto Rico</p>
-					<a href="">SEE MORE</a>
-					<p>July 2014</p>
-				</div>
-				<div class="card col-sm-12 newsletter-form">
-					<input type="text" class="campo" placeholder="Enter your email adress to get our newsletter"><input type="submit" class="button" value="SUBMIT">
-				</div>
-				<a href="#">More News</a>
 			</div>
 		</div>
 <!-- ******************************************** -->

@@ -1,0 +1,750 @@
+body
+{
+	background: #fff;
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	font-size: 12px;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-regular.eot');
+    src: url('../fonts/proximanova-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular.woff') format('woff'),
+         url('../fonts/proximanova-regular.ttf') format('truetype'),
+         url('../fonts/proximanova-regular.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proximanova-bold.eot');
+    src: url('../fonts/proximanova-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold.woff') format('woff'),
+         url('../fonts/proximanova-bold.ttf') format('truetype'),
+         url('../fonts/proximanova-bold.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'georgiaregular';
+    src: url('../fonts/georgia.eot');
+    src: url('../fonts/georgia.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/georgia.woff') format('woff'),
+         url('../fonts/georgia.ttf') format('truetype'),
+         url('../fonts/georgia.svg#georgiaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#wrapper
+{
+	width: 997px;
+	margin: 0 auto;
+	height: 500px;
+}
+
+#wrapper .left-btt
+{
+	width: 27px;
+	height: 46px;
+	background: transparent url(../img/left-btt.png) no-repeat;
+	float: left;
+	margin-top: 227px;
+	position: absolute;
+	z-index: 1;
+}
+
+#wrapper .right-btt
+{
+	width: 27px;
+	margin: 0 auto;
+	height: 46px;
+	background: transparent url(../img/right-btt.png) no-repeat;
+	float: right;
+	margin-top: 227px;
+	position: absolute;
+	margin-left: 970px;
+	z-index: 1;
+}
+
+/******* philips ********/
+
+#philips
+{
+	width: 922px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+#philips .title
+{
+	font-family: proxima_nova_rgbold;
+	color: #9D4B78;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	font-style: normal;
+}
+
+#philips .text
+{
+	float: left;
+	width: 320px;
+	margin-top: 120px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 14px;
+	font-style: italic;
+}
+
+#philips .text2
+{
+	float: left;
+	width: 330px;
+	margin-top: 120px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 14px;
+	font-style: italic;
+	margin-right: 30px;
+}
+
+#philips .text4
+{
+	float: left;
+	width: 350px;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 14px;
+	font-style: italic;
+	margin-right: 30px;
+}
+
+#philips .subtitle
+{
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+#philips .subtitle1
+{
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-style: italic;
+	color: #9D4B78;
+}
+
+#philips .imagen1
+{
+	float: left;
+	width: 430px;
+	margin-top: 90px;
+}
+
+#philips .imagen2
+{
+	float: left;
+	width: 350px;
+	margin-top: 90px;
+}
+
+#philips .imagen3
+{
+	float: left;
+	width: 350px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+#philips .imagen4
+{
+	float: left;
+	width: 850px;
+	margin-top: 40px;
+}
+
+#philips .imagen5
+{
+	float: left;
+	width: 320px;
+}
+
+/******* philips ********/
+
+/******* colgate ********/
+
+#colgate
+{
+	width: 922px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+#colgate .title
+{
+	font-family: proxima_nova_rgbold;
+	color: #ED1C24;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	font-style: normal;
+}
+
+#colgate .text
+{
+	float: left;
+	width: 310px;
+	margin-top: 120px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 12px;
+	font-style: italic;
+}
+
+#colgate .text2
+{
+	float: left;
+	width: 140px;
+	margin-top: 120px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 12px;
+	font-style: italic;
+}
+
+#colgate .text2b
+{
+	float: left;
+	width: 250px;
+	margin-top: 120px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 12px;
+	font-style: italic;
+}
+
+#colgate .text4
+{
+	float: left;
+	width: 350px;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 12px;
+	font-style: italic;
+	margin-right: 30px;
+}
+
+#colgate .subtitle
+{
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+#colgate .subtitle1
+{
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-style: italic;
+	color: #ED1C24;
+}
+
+#colgate .imagen1
+{
+	float: left;
+	width: 430px;
+	margin-top: 40px;
+        margin-left: 40px;
+}
+
+#colgate .imagen2
+{
+	float: left;
+	width: 350px;
+	margin-top: 90px;
+        margin-left: 30px;
+}
+
+#colgate .imagen2b
+{
+	float: left;
+	width: 350px;
+	margin-top: 90px;
+}
+
+#colgate .imagen3
+{
+	float: left;
+	width: 350px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+#colgate .imagen4
+{
+	float: left;
+	width: 850px;
+	margin-top: 40px;
+}
+
+#colgate .imagen5
+{
+	float: left;
+	width: 320px;
+/*	margin-top: 110px;
+	margin-left: 70px;  */
+}
+
+/******* colgate ********/
+
+
+/******* coca-cola ********/
+
+#coca-cola
+{
+	width: 922px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+#coca-cola .title
+{
+	font-family: proxima_nova_rgbold;
+	color: #E41E2A;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	font-style: normal;
+}
+
+#coca-cola .titleb
+{
+	font-family: proxima_nova_rgbold;
+	color: #007CC4;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	font-style: normal;
+}
+
+#coca-cola .text
+{
+	float: left;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 14px;
+	font-style: italic;
+}
+
+#coca-cola .text2
+{
+	float: left;
+	width: 300px;
+	margin-top: 120px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 14px;
+	font-style: italic;
+	margin-right: 30px;
+}
+
+#coca-cola .text4
+{
+	float: left;
+	width: 350px;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 14px;
+	font-style: italic;
+	margin-right: 30px;
+}
+
+#coca-cola .subtitle
+{
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+#coca-cola .subtitle1
+{
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-style: italic;
+	color: #E41E2A;
+}
+
+#coca-cola .imagen1
+{
+	float: left;
+	width: 430px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+#coca-cola .imagen2
+{
+	float: left;
+	width: 350px;
+	margin-top: 90px;
+}
+
+#coca-cola .imagen3
+{
+	float: left;
+	width: 350px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+#coca-cola .imagen4
+{
+	float: left;
+	width: 850px;
+	margin-top: 90px;
+}
+
+#coca-cola .imagen5
+{
+	float: left;
+	width: 320px;
+	margin-top: 110px;
+	margin-left: 70px;
+}
+
+/******* coca-cola ********/
+
+
+/******* kellogs ********/
+
+#kellogs
+{
+	width: 922px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+#kellogs .txtin
+{
+	font-family: georgiaregular;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 5px;
+	color: #283d94;
+}
+
+#kellogs .title
+{
+	font-family: proxima_nova_rgbold;
+	color: #283d94;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	font-style: normal;
+}
+
+#kellogs .text
+{
+	float: left;
+	width: 360px;
+	margin-top: 120px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 14px;
+	font-style: italic;
+}
+
+#kellogs .text2
+{
+	float: left;
+	width: 280px;
+	margin-top: 150px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 12px;
+	font-style: italic;
+	margin-right: 30px;
+}
+
+#kellogs .text4
+{
+	float: left;
+	width: 350px;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 14px;
+	font-style: italic;
+	margin-right: 30px;
+}
+
+#kellogs .subtitle
+{
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+#kellogs .subtitle1
+{
+	font-family: georgiaregular;
+	color: #344;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: -5px;
+	font-style: italic;
+	color: #283d94;
+}
+
+#kellogs .imagen1
+{
+	float: left;
+	width: 430px;
+	margin-top: 90px;
+}
+
+#kellogs .imagen2
+{
+	float: left;
+	width: 350px;
+	margin-top: 90px;
+}
+
+#kellogs .imagen3
+{
+	float: left;
+	width: 350px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+#kellogs .imagen4
+{
+	float: left;
+	width: 850px;
+	margin-top: 40px;
+}
+
+#kellogs .imagen5
+{
+	float: left;
+	width: 320px;
+/**	margin-top: 110px;**/
+	margin-left: 60px; 
+}
+
+/******* kellogs ********/
+
+#navegacion
+{
+	background: transparent url(../img/bgnavegacion.jpg) no-repeat top center;
+	width: 922px;
+	height: 30px;
+	text-align: left;
+	padding-top: 2px;
+}
+
+#navegacion .point1
+{
+	background: transparent url(../img/point.png) no-repeat top left;
+	margin-left: 3px;
+}
+
+#navegacion .point2
+{
+	background: transparent url(../img/point.png) no-repeat top left;
+	margin-left: 305px;
+}
+
+#navegacion .point3
+{
+	background: transparent url(../img/point.png) no-repeat top left;
+	margin-left: 607px;
+}
+
+#navegacion .point4
+{
+	background: transparent url(../img/point.png) no-repeat top left;
+	margin-left: 909px;
+}
+
+#navegacion span.caso
+{
+	font-family: proxima_nova_rgbold;
+	color: #9D4B78;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#navegacion .point1-a
+{
+	background: transparent url(../img/point-a.png) no-repeat top left;
+	margin-left: 3px;
+}
+
+#navegacion .point2-a
+{
+	background: transparent url(../img/point-a.png) no-repeat top left;
+	margin-left: 305px;
+}
+
+#navegacion .point3-a
+{
+	background: transparent url(../img/point-a.png) no-repeat top left;
+	margin-left: 607px;
+}
+
+#navegacion .point4-a
+{
+	background: transparent url(../img/point-a.png) no-repeat top left;
+	margin-left: 909px;
+}
+
+#navegacion span.casoA
+{
+	font-family: proxima_nova_rgbold;
+	color: #ED1C24;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#navegacion .point1-b
+{
+	background: transparent url(../img/point-b.png) no-repeat top left;
+	margin-left: 3px;
+}
+
+#navegacion .point2-b
+{
+	background: transparent url(../img/point-b.png) no-repeat top left;
+	margin-left: 305px;
+}
+
+#navegacion .point3-b
+{
+	background: transparent url(../img/point-b.png) no-repeat top left;
+	margin-left: 607px;
+}
+
+#navegacion .point4-b
+{
+	background: transparent url(../img/point-b.png) no-repeat top left;
+	margin-left: 909px;
+}
+
+#navegacion span.casoB
+{
+	font-family: proxima_nova_rgbold;
+	color: #283d94;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-blign: center;
+}
+
+/******** WORKS ********/
+
+#wrapper-clients
+{
+	width: 560px;
+	margin: 0 auto;
+}
+
+#wrapper-clients .imagen
+{
+	width: 236px;
+	height: 261px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+#wrapper-clients .texto
+{
+	width: 290px;
+	float: left;
+	margin-top: 40px;
+	text-align: center;
+	font-family: georgiaregular;
+	font-size: 18px;
+	color: #344;
+}
+
+#wrapper-clients .titulo
+{
+	font-size: 22px;
+	font-family: proxima_nova_rgbold;
+	color: #00B1B5;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
