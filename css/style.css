@@ -1224,13 +1224,13 @@ img.marca-c{
 	width: 100%;
 }
 p.marcas{
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 20px;
 	text-align: center;
 	margin: 20% 0 0;
 }
 p.leyenda{
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 20px;
 	text-align: center;
 	border-top: 5px solid #00b0b5; 

@@ -1,23 +1,8 @@
-<?php
+<?
 require_once('lib/PDO/config.php');
 require_once('lib/PDO/PDODB.php');
 require_once('lib/PDO/PDOResult.php');
-class News extends PDODB{
-    public function __construct(){
-        parent::__construct();
-        $this->table = 'articles';
-        $this->record = false;
-    }
-    public function all(){
-        return $this->_where("id_article,estatus,title,intro,descr,pic,type,dateReg", "estatus=1", 10, "id_article DESC");
-    }
-    public function byCat($cat){
-        return $this->_where("id_article,estatus,title,intro,descr,pic,type,dateReg", "estatus=1 AND type=$cat", 10, "id_article DESC");
-    }
-    public function byId($id){
-        return $this->_where("id_article,estatus,title,intro,descr,pic,type,dateReg", "estatus=1 AND id_article=$id", 1);
-    }
-}
+require_once('news.class.php');
 $id = @$_REQUEST['see'];
 $cat = @$_REQUEST['cat'];
 
