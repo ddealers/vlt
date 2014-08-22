@@ -1,6 +1,7 @@
 $(document).on('ready', function(){
 	$('body').scrollspy({ target: '.navbar-collapse' });
 	$('.addon').css({display:'none'});
+    $( 'a.btn' ). colorbox (); 
 });
 
 //jQuery for show addon
@@ -25,3 +26,4 @@ $(function() {
         event.preventDefault();
     });
 });
+//jQuery para galleria de botones

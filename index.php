@@ -22,7 +22,7 @@
 									<h1>FIFA WORLD CUP<span>TM<br></span>BRAZIL 2014<span class="borde-cocacola"></span></h1>
 									<h2 class="tittle">Here we come!</h2>
 									<p class="tittle">Coca-Cola, official partner in this one-of-a-kind event, has commissioned us to develop its Shopper Marketing Platform for the US General Market.</p>
-									<p><a class="btn btn-lg btn-primary" href="#" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
+									<p><a class="btn btn-lg btn-primary" href="./img/Crop_CHICA.jpg" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
 								</div>
 								<div class="col-xs-12 col-sm-8">
 									<img src="./img/coca.png" class="imagen">
@@ -260,45 +260,45 @@
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<P class="pais">Global</p>
-					<p class="direccion">We work for people all around the world, but if you are close to one of our offices let usknow so we can meet.</p>
+					<p class="direccion22">We work for people all around the world, but if you are close to one of our offices let usknow so we can meet.</p>
 					<a href="Tel: +54 11 4797 9669" class="links"> <p>Tel: +54 11 4797 9669</p></a>
 					<a href="Cel: +54 911 4526 3905" class="links"> <p>Cel: +54 911 4526 3905</p> </a>
-					<a href="mailto:diego.blanco@visuallatina.com" class="links"><p>diego.blanco@visuallatina.com</p></a>
+					<a href="mailto:diego.blanco@visuallatina.com" class="links-d"><p>diego.blanco@visuallatina.com</p></a>
 					<p class="pais">Atlanta</p>
 					<p class="direccion">1117 Peachtree Street Suite 1222, Atlanta , GA 30309.</p>
 					<a href="Tel: +1 404 630 9079" class="links"> <p>Tel: +1 404 630 9079</p> </a>
 					<a href="Cel: +1 678 772 0118" class="links"> <p>Cel: +1 678 772 0118</p> </a>
-					<a href="mailto:guadalupe.cano@visuallatina.com" class="links"><p>guadalupe.cano@visuallatina.com</p></a>
+					<a href="mailto:guadalupe.cano@visuallatina.com" class="links-d"><p>guadalupe.cano@visuallatina.com</p></a>
 					<p class="pais">London</p>
 					<p class="direccion">Willoughby House, 439 Richmond Road Richmond-Upon-Thames, Surrey, London, TW1 2AG.</p>
 					<a href="Tel: +44 7872 171 400" class="links"> <p>Tel: +44 7872 171 400</p> </a>
 					<a href="Cel: +44 7980 595 323" class="links"> <p>Cel: +44 7980 595 323</p> </a>
-					<a href="mailto:simone.dyson@visuallatina.com" class="links"><p>simone.dyson@visuallatina.com</p></a>
+					<a href="mailto:simone.dyson@visuallatina.com" class="links-d"><p>simone.dyson@visuallatina.com</p></a>
 					<p class="pais">New York</p>
 					<a href="Cel: +1 917 399 8770" class="links"> <p>Cel: +1 917 399 8770</p> </a>
-					<a href="mailto:claudia.orci@visuallatina.com" class="links"><p>claudia.orci@visuallatina.com</p></a>
+					<a href="mailto:claudia.orci@visuallatina.com" class="links-d"><p>claudia.orci@visuallatina.com</p></a>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<p class="pais">México D.F.</p>
 					<p class="direccion">Hegel No. 618 Col. Bosques de Chapultepec, Delegación Miguel Hidalgo , C.P. 11580.</p>
 					<a href="Tel: +52 55 3003 0530" class="links"> <p>Tel: +52 55 3003 0530</p> </a>
 					<a href="Cel: +52 155 2979 4416" class="links"> <p>Cel: +52 155 2979 4416</p> </a>
-					<a href="mailto:natalya.tatarin@visuallatina.com" class="links"><p>natalya.tatarin@visuallatina.com</p></a>
+					<a href="mailto:natalya.tatarin@visuallatina.com" class="links-d"><p>natalya.tatarin@visuallatina.com</p></a>
 					<p class="pais">São Paulo</p>
 					<p class="direccion">Rua República do Iraque, 1585 Campo Belo São Paulo SP – Brasil CEP: 04611-003.</p>
 					<a href="Tel: +55 11 5093 0297" class="links"> <p>Tel: +55 11 5093 0297</p> </a>
 					<a href="Cel: +55 11 99722 4582" class="links"> <p>Cel: +55 11 99722 4582</p> </a>
-					<a href="mailto:renato.tura@visuallatina.com.br" class="links"><p>renato.tura@visuallatina.com.br</p></a>
+					<a href="mailto:renato.tura@visuallatina.com.br" class="links-d"><p>renato.tura@visuallatina.com.br</p></a>
 					<p class="pais">Buenos Aires</p>
 					<p class="direccion">Gaspar Campos 647 Vicente Lopez , B1638ARK.</p>
 					<a href="Tel: +5411 4797 9669" class="links"> <p>Tel: +5411 4797 9669</p> </a>
 					<a href="Cel: +54 11 3596 6020" class="links"> <p>Cel: +54 11 3596 6020</p> </a>
-					<a href="mailto:eugenio.bory@visuallatina.com" class="links"><p>eugenio.bory@visuallatina.com</p></a>
+					<a href="mailto:eugenio.bory@visuallatina.com" class="links-d"><p>eugenio.bory@visuallatina.com</p></a>
 					<p class="pais">Santiago de Chile</p>
 					<p class="direccion">Cerro Colorado 5240 Torre II, p10, of1015 Las Condes, Santiago , CP 7550000.</p>
 					<a href="Tel: +56 2 2434 5314" class="links"> <p>Tel: +56 2 2434 5314</p> </a>
 					<a href="Cel: +56 9 9276 2749" class="links"> <p>Cel: +56 9 9276 2749</p> </a>
-					<a href="mailto:gustavo.maspero@visuallatina.com" class="links"><p>gustavo.maspero@visuallatina.com</p></a>
+					<a href="mailto:gustavo.maspero@visuallatina.com" class="links-d"><p>gustavo.maspero@visuallatina.com</p></a>
 				</div>
 			</div>
 		</div>
