@@ -257,7 +257,7 @@
           </div>
           <div class="col-sm-6 col-md-4">
             <P class="pais">Global</P>
-            <p class="direccion">We work for people all around the world, but if you are close to one of our offices let usknow so we can meet.</p>
+            <p class="direccion22">We work for people all around the world, but if you are close to one of our offices let usknow so we can meet.</p>
             <a href="Tel: +54 11 4797 9669" class="links"> <p>Tel: +54 11 4797 9669</p></a>
             <a href="Cel: +54 911 4526 3905" class="links"> <p>Cel: +54 911 4526 3905</p> </a>
             <a href="mailto:diego.blanco@visuallatina.com" class="links"><p>diego.blanco@visuallatina.com</p></a>
