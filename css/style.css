@@ -1645,6 +1645,55 @@ img.play{
 /*======================================
 				
 ======================================*/
+#news div.article{
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 20px 20px 40px;
+	position: relative;
+}
+#news .article .date{
+	font-family: 'proximanova-regular';
+	font-size: 18px;
+}
+#news .article .title{
+	border-top: 1px solid #344;
+	border-bottom: 1px solid #344;
+	margin: 10px auto;
+	padding: 15px;
+	font-family: georgiaregular;
+	font-style: italic;
+	font-size: 30px;
+}
+#news .article .content img{
+	float: left;
+}
+#news .article .content .desc{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #344;
+}
+#news .article ul.social{
+	list-style-type: none;
+	position: absolute;
+	right: 20px;
+	padding: 10px 0;
+}
+#news .article ul.social li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+#news .article ul.social li.fb{
+	background: url(../img/icon-facebook.jpg) no-repeat;
+}
+#news .article ul.social li.tw{
+	background: url(../img/icon-twitter.jpg) no-repeat;
+}
+#news .article ul.social li.in{
+	background: url(../img/icon-in.jpg) no-repeat;
+}
+#news .article ul.social li span{
+	display: none;
+}
 @media (min-width: 320px){
 	#news.main ul.smooth {
 		position: fixed;
@@ -1659,9 +1708,25 @@ img.play{
 	}
 	#news p.date{
 		width: 70px;
+		margin: 0;
 	}
 	#news .container-fluid {
 		margin-bottom: 32px;
+	}
+	#news .box{
+		padding-top: 0;
+		background-color: #fff;
+		margin-bottom: 20px;
+	}
+	#news .box .row{
+		border-top: 1px solid #aaa;
+		padding-top: 0;
+		margin-top: 20px;
+		clear: both;
+	}
+	#news .box .row .col-xs-4{
+		border-left: 1px solid #aaa;
+		text-align: right;
 	}
 	#news.main {
 		padding-top: 0px;
@@ -1679,9 +1744,9 @@ img.play{
 		font-size: 15px;
 		padding-right: 20px;
 	}
-	#news .col-md-11.new-info{
-		margin-top: 150px;
-		background: #fff;
+	#news .col-md-12.new-info{
+		margin-top: 170px;
+		/*background: #fff;*/
 	}
 	#news img.images{
 		width: 100%;
@@ -1731,10 +1796,12 @@ img.play{
 		background: none;
 		border: none;
 	}
-	#news .col-md-11.new-info {
+	/*
+	#news .col-md-12.new-info {
 		margin-top: 200px;
 		width: 710px;
 	}
+	*/
 	#news.row {
 		height: 205px;
 	}

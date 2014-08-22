@@ -9,92 +9,91 @@ class News extends PDODB{
         $this->record = false;
     }
     public function all(){
-        return $this->_where("id_article,estatus,title,intro,descr,pic,type", "estatus=1", 10, "id_article DESC");
+        return $this->_where("id_article,estatus,title,intro,descr,pic,type,dateReg", "estatus=1", 10, "id_article DESC");
+    }
+    public function byCat($cat){
+        return $this->_where("id_article,estatus,title,intro,descr,pic,type,dateReg", "estatus=1 AND type=$cat", 10, "id_article DESC");
+    }
+    public function byId($id){
+        return $this->_where("id_article,estatus,title,intro,descr,pic,type,dateReg", "estatus=1 AND id_article=$id", 1);
     }
 }
+$id = @$_REQUEST['see'];
+$cat = @$_REQUEST['cat'];
+
 $n = new News();
-$news = $n->all();
+if($id){
+    $new = $n->byId($id)->UTF8Encode()->first();
+}else if($cat){
+    $news = $n->byCat($cat)->UTF8Encode()->get();
+}else{
+    $news = $n->all()->UTF8Encode()->get();
+}
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</head>
+    <? include('includes/head.php') ?>
     <body class="interior2">
-        <div class="navbar-wrapper">
-          <div class="container">
-            <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-                <div class="container">
-                  <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#"><img src="./img/loglogin.png" class="logo"></a>
-                  </div>
-                  <div class="navbar-collapse collapse">
-                      <ul class="nav navbar-nav">
-                      <li><a class="page-scroll" href="#about">ABOUT US</a></li>
-                      <li><a class="page-scroll" href="#clients">CLIENTS</a></li>
-                      <li><a class="page-scroll" href="#work">WORK</a></li>
-                      <li class="dropdown">
-                            <a href="#contact" class="dropdown-toggle" data-toggle="dropdown">CONTACT<span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                              <li><a href="#" class="facebook">Facebook</a></li>
-                              <li><a href="#" class="twitter">Twitter</a></li>
-                              <li><a href="#" class="linkedin">Linkedin</a></li>
-                              <li><a href="#" class="news">News</a></li>
-                            </ul>
-                        </li>
-                      </ul>
-                      <ul class="icon-r-social">
-                        <li class="new">News <a href="#" class="news-n"></a></li>
-                        <li><a href="#" class="facebook-f"></a></li>
-                        <li><a href="#" class="twitter-t"></a></li>
-                        <li><a href="#" class="linkedin-l"></a></li>
-                      </ul>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
+        <? include('includes/navbar.php') ?>
         <div id="news" class="main container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-3 contenedor">
                     <ul class="smooth">
-                        <li><a href="#">ALL</a></li>
-                        <li><a href="#">PRESS</a></li>
-                        <li><a href="#">PROJECTS</a></li>
-                        <li><a href="#">NEWS</a></li>
+                        <li><a href="news.php">ALL</a></li>
+                        <li><a href="news.php?cat=2">PRESS</a></li>
+                        <li><a href="news.php?cat=1">PROJECTS</a></li>
+                        <li><a href="news.php?cat=3">NEWS</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-md-8">
-                    <div class="col-md-11 new-info">
-                        <div class="row box">
-                            <div class="margen col-sm-6">
-                                <img src="./img/coca-1.png" class="images">
-                            </div>
-                            <div class="margen col-sm-6">
-                                <h2 class="projects">PROJECTS</h2>
-                                <p class="contenido-titulo">Visual Latina abre oficinas en Puerto Rico</p>
-                                <p class="contenido-texto">De la mano de Coca Cola, Visual Latina llegó a Puerto Rico y planea expandir su presencia hacia la región Andina y el Caribe.</p>
-                                <a href="" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
-                                <div class="fecha">
-                                    <p class="date">July 2014</p>
+                    <div class="col-md-12 new-info">
+                        <? if($new): ?>
+                            <div class="article row box">
+                                <div class="date col-xs-12"><? echo date('F Y',strtotime($new->dateReg)) ?></div>
+                                <div class="title col-xs-12"><? echo $new->title ?></div>
+                                <div class="content col-xs-12">
+                                    <img src="./uploads/<? echo $new->pic ?>" class="images">
+                                    <div class="desc">
+                                        <? echo $new->descr ?>
+                                    </div>
+                                    <ul class="social">
+                                        <li class="fb"><span>Facebook</span></li>
+                                        <li class="tw"><span>Twitter</span></li>
+                                        <li class="in"><span>Linkedin</span></li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div>
+                        <? else: ?>
+                            <? if($news): ?>
+                            <? foreach($news as $new): ?>
+                            <div class="row box type-<? echo $new->type ?>">
+                                <div class="margen col-sm-6">
+                                    <img src="./uploads/<? echo $new->pic ?>" class="images">
+                                </div>
+                                <div class="margen col-sm-6">
+                                    <h2 class="projects"><? switch ($new->type) {
+                                        case '2':
+                                            echo "PRESS"; 
+                                            break;
+                                        case '3':
+                                            echo "NEWS";
+                                            break;
+                                        default:
+                                            echo "PROJECTS";
+                                            break;
+                                    }?></h2>
+                                    <p class="contenido-titulo"><? echo $new->title ?></p>
+                                    <p class="contenido-texto"><? echo $new->intro ?></p>
+                                    <a href="news.php?see=<? echo $new->id_article ?>" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-8"></div>
+                                    <div class="col-xs-4"><? echo date('F Y',strtotime($new->dateReg)) ?></div>
+                                </div>
+                            </div>
+                            <? endforeach; ?>
+                            <? endif; ?>
+                        <? endif; ?>
                     </div>
                 </div>
             </div>
