@@ -1451,6 +1451,7 @@ div.news .more-news{
 	display: block;
 	background: url(../img/trompeta.png)no-repeat 110px;
 	background-size: 35px;
+	width: 150px;
 }
 @media(min-width: 770px){
 	div.news h3 .green-line{
