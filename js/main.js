@@ -18,6 +18,29 @@ $(document).on('ready', function(){
     		window.open('http://www.linkedin.com/shareArticle?mini=true&url='+location.href,'Compartir en LinkedIn','width=480, height=320');
     	}
     });
+    $('#newsletter-form').on('submit', function(e){
+    	e.preventDefault();
+    	$email = $('.campo');
+    	var re = /^(([^<>()[]\.,;:s@"]+(.[^<>()[]\.,;:s@"]+)*)|(.+))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/igm;
+		if ($email.val() == '' || !re.test($email.val())){
+			alert('El formato del correo no ha sido reconocido.');
+		}else{
+			$.post('index.php',{action:'save', mail: $email.val()}, function(){
+				alert('Tu correo ha sido guardado, espera noticias nuestras próximamente.');
+				$email.val('');
+			});
+		}
+    });
+    $('.campo').on('keyup', function(e){
+    	$form = $('#newsletter-form');
+    	$email = $(this);
+    	var re = /^(([^<>()[]\.,;:s@"]+(.[^<>()[]\.,;:s@"]+)*)|(.+))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/igm;
+		if ($email.val() == '' || !re.test($email.val())){
+		    $form.addClass('has-error').removeClass('has-success');
+		}else{
+			$form.addClass('has-success').removeClass('has-error');
+		}
+    });
 });
 
 //jQuery for show addon

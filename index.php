@@ -3,7 +3,16 @@ require_once('lib/PDO/config.php');
 require_once('lib/PDO/PDODB.php');
 require_once('lib/PDO/PDOResult.php');
 require_once('news.class.php');
+require_once('newsletter.class.php');
 $n = new News();
+$nl = new Newsletter();
+$action = $_POST['action'];
+if(isset($action)){
+	$mail = $_POST['mail'];
+	$nl->save($mail);
+	echo 'Mail Guardado';
+	exit;
+}
 $news = $n->all(3)->UTF8Encode()->get();
 ?>
 <!DOCTYPE html>
@@ -242,21 +251,20 @@ $news = $n->all(3)->UTF8Encode()->get();
 							<div class="card-abstract"><? echo $new->intro ?></div>
 							<a href="news.php?see=<? echo $new->id_article ?>">SEE MORE<img src="./img/play2.png" class="play"></a>
 							<div class="row">
-								<p class="border col-sm-8"></p>
-								<p class="border col-sm-4"><? echo date('F Y',strtotime($new->dateReg)) ?></p>
+								<div class="border col-sm-4"><? echo date('F Y',strtotime($new->dateReg)) ?></div>
 							</div>
 						</div>
 					</div>
 					<? endforeach; ?>
 				<? endif; ?>
-				<div class="col-sm-12">
+				<form id="newsletter-form" class="col-sm-12">
 					<div class="newsletter col-sm-offset-2 col-sm-5">
-						<input type="text" class="campo" placeholder="Enter your email adress to get our newsletter"><input type="submit" class="button" value="SUBMIT">
+						<input type="text" name="mail" class="campo form-control" placeholder="Enter your email adress to get our newsletter"><input type="submit" class="button" value="SUBMIT">
 					</div>
 					<div class="col-sm-2">
 						<a class="more-news" href="news.php">More News</a>
 					</div>
-				</div>
+				</form>
 			</div>
 		</div>
 <!-- ******************************************** -->
