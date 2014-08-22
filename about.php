@@ -3,7 +3,7 @@
     <? include('includes/head.php') ?>
     <body class="about">
     	<? include('includes/navbar.php') ?>
-        <div class="main container-fluid">
+        <div id="about" class="main container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-3">
                     <ul class="smooth">
