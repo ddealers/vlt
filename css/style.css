@@ -1329,7 +1329,115 @@ h1.h1Tittle{
 		margin-left: 500px;
 	}
 }
-
+/*======================================
+					NEWS
+======================================*/
+div.news{
+	background: url(../img/damero3.png) no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 20px;
+}
+div.news h3{
+	text-align: center;
+	color: #00B1B5;
+	font-style: italic;
+	font-family: georgiaregular;
+	font-weight: bold;
+	font-size: 20px;
+}
+div.news h3 .green-line{
+	width: 87px;
+	height: 3px;
+	background-color: #00B1B5;
+	display: block;
+	position: relative;
+	bottom: 5px;
+	margin: 10px auto 0;
+}
+div.news .card-img{
+	overflow: hidden;
+	height: 100px;
+}
+div.news .card-img img{
+	width: 100%;
+}
+div.news .col-sm-12 div.card-content{
+	background: #FFF;
+	margin: 0;
+}
+div.news .card-content h5{
+	padding: 0 15px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #00B1B5;
+	margin: 0;
+}
+div.news .card-content .card-abstract{
+	padding: 0 15px;
+	line-height: 22px;
+	font-size: 20px;
+	font-family: georgiaregular;
+	color: #344;
+}
+div.news .card-content a{
+	padding: 0 15px;
+	font-family: 'proximanova-bold';
+	color: #5a5a5a;
+	display: block;
+	margin-top: 10px;
+}
+div.news .card-content a img{
+	padding-top: -4px;
+}
+div.news .card-content .row{
+	border: 1px #999 solid;
+	margin-top: 10px;
+}
+div.news .card-content .row p{
+	text-align: center;
+}
+div.news .card-content .row .col-sm-4{
+	margin: 0;
+	border-left: 1px #999 solid;
+}
+div.news .col-sm-12 div{
+	margin-top: 20px;
+}
+div.news .newsletter{}
+div.news .campo{
+	width: 250px;
+	background: #fff;
+	height: 57px;
+	border: 1px solid #344;
+	padding: 0 10px;
+	font-style: italic;
+}
+div.news .button{
+	background: transparent;
+	width: 100px;
+	height: 57px;
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	margin-top: 0px;
+}
+div.news .more-news{
+	font-family: georgiaregular;
+	color: #fff;
+	font-style: italic;
+	font-size: 22px;
+	padding-top: 10px;
+	display: block;
+	background: url(../img/trompeta.png)no-repeat 110px;
+	background-size: 35px;
+}
+@media(min-width: 770px){
+	div.news h3 .green-line{
+		display: inline-block;
+		margin: 0 5px;
+	}
+}
 
 /*======================================
 					CANASTO
