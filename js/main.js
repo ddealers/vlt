@@ -1,7 +1,11 @@
 $(document).on('ready', function(){
 	$('body').scrollspy({ target: '.navbar-collapse' });
 	$('.addon').css({display:'none'});
-    $( 'a.btn' ). colorbox (); 
+    $( 'a.btn' ).colorbox ({
+    	iframe : true,
+        width : "100%",
+        height : "100%"
+    }); 
 });
 
 //jQuery for show addon
