@@ -197,6 +197,10 @@ img.r-s-i{
 	left: 110px;
 }
 @media (min-width: 320px){
+	ul.icon-r-social{
+		display: none;
+		
+	}
 	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
 		color: #00b0b5;
 	}
@@ -1776,7 +1780,7 @@ img.play{
 		border: 2px solid #00b0b5;
 		height: 115px;
 	}
-	.container{
+	#about .container{
 		height: 50px;
 	}
 	#about .col-xs-12. {
@@ -1804,13 +1808,13 @@ img.play{
 		vertical-align: middle;
 		width: 9%;
 	}
-	.main ul.smooth li a {
+	#about.main ul.smooth li a {
 		color: #00B2B6;
 		text-decoration: none;
 		font-size: 13px;
 		line-height: 25px;
 	}
-	.container-fluid {
+	#about.container-fluid {
 		margin-right: auto;
 		margin-left: auto;
 		padding-left: 15px;
