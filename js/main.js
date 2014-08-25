@@ -61,7 +61,7 @@ $(function() {
         var $anchor = $(this),
         	$link = $anchor.attr('href').replace('index.php','');
         $('html, body').stop().animate({
-            scrollTop: $($link).offset().top
+            scrollTop: $($link).offset().top - 80
         }, 1500);
         event.preventDefault();
     });
