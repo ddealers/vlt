@@ -189,7 +189,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 				<h1 class="solution-text">FOR VARIETY OF CATEGORIES AND SHOPPER MINDSETS</h1>
 			</div>
 			<div class="moreinfo col-sm-12 col-md-4">
-				<img src="./img/coca-1.png" class="marca-co">
+				<img src="./img/coca-2.png" class="marca-co">
 				<div class="addon">
 					<p class="marcas">COCA-COLA</p>
 					<p class="leyenda">PREPARING TO CELEBRATE</p>
@@ -228,7 +228,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 		<div class="container news">
 			<div class="row">
 				<div class="col-sm-12">
-					<h3><i class="green-line"></i>Read our latest shopper news or subscribe to our newsletter<i class="green-line"></i></h3>
+					<h3 class="notice"><i class="green-line"></i>Read our latest shopper news or subscribe to our newsletter<i class="green-line"></i></h3>
 				</div>
 				<? if($news): ?>
 					<? foreach($news as $new): ?>
@@ -289,8 +289,6 @@ $news = $n->all(3)->UTF8Encode()->get();
 					<P class="pais">Global</p>
 					<p class="direccion">We work for people all around the world, but if you are close to one of our offices let usknow so we can meet.</p>
 					<a href="Tel: +54 11 4797 9669" class="links"> <p>Tel: +54 11 4797 9669</p></a>
-					<a href="Tel: +54 11 4797 9669" class="links"> <p>Tel: +54 11 4797 9669</p> </a>
-					<a href="Tel: +54 911 4526 3905" class="links"> <p>Tel: +54 911 4526 3905</p> </a>
 					<a href="Cel: +54 911 4526 3905" class="links"> <p>Cel: +54 911 4526 3905</p> </a>
 					<a href="mailto:diego.blanco@visuallatina.com" class="links"><p>diego.blanco@visuallatina.com</p></a>
 					

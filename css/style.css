@@ -47,7 +47,7 @@ body {
 }
 @media (min-width: 768px){
 	.carousel {
-		margin-top:90px;
+		margin-top: 51px;
 	}
 }
 /* Since positioning the image, we need to help out the caption */
@@ -565,14 +565,14 @@ div.carousel-caption{
 	top: 40px;
 }
 .carousel .item{
-	height: 550px;
+	height: 595px;
 }
 .carousel-inner > .item > img {
 	min-width: 0px;
 	height: 0px;
 }
 .carousel-indicators {
-	bottom: -55px;
+	bottom: -90px;
 }
 .btn-lg, .btn-group-lg>.btn {
 	font-size: 13px;
@@ -587,10 +587,10 @@ div.carousel-caption{
 	font-family: 'proximanova-bold';
 }
 .carousel-control.right {
-	height: 550px;
+	height: 595px;
 }
 .carousel-control.left {
-	height: 550px;
+	height: 595px;
 }
 h1 span{
 	font-size: 13px;
@@ -641,7 +641,7 @@ h1 span{
 .row {
 	margin-left: 0px;
 	margin-right: 0px;
-	padding-top: 60px;
+	/*padding-top: 60px;*/
 }
 div.row.featurette{
 	background: #596a7a;
@@ -1227,7 +1227,7 @@ p.marcas{
 	/*font-weight: bold;*/
 	font-size: 20px;
 	text-align: center;
-	margin: 20% 0 0;
+	margin: 26% 0 0;
 }
 p.leyenda{
 	/*font-weight: bold;*/
@@ -1377,7 +1377,7 @@ div.news h3 .green-line{
 }
 div.news .card-img{
 	overflow: hidden;
-	height: 100px;
+	/*height: 100px;*/
 }
 div.news .card-img img{
 	width: 100%;
@@ -1445,6 +1445,13 @@ div.news .button{
 	border: 1px solid #fff;
 	color: #fff;
 	margin-top: 0px;
+}
+div.news h3.notice{
+	margin-top: 60px;
+	margin-bottom: 0px;	
+}
+div.news .col-sm-12 {
+	padding-top: 30px;
 }
 div.news .more-news{
 	font-family: georgiaregular;
@@ -1619,7 +1626,7 @@ a.links-d{
 @media (min-width: 1024px){
 	.col-md-4 {
 		width: 33.33333333%;
-		margin-top: 30px;
+		/*margin-top: 30px;*/
 	}
 	.container.marketing-fondoUl .col-md-4 {
 		width: 23.333333%;
@@ -1951,4 +1958,4 @@ img.play{
 		font-size: 18px;
 	}
 }
-	
+
