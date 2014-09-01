@@ -39,6 +39,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 									<h1>FIFA WORLD CUP<span>TM<br></span>BRAZIL 2014<span class="borde-cocacola"></span></h1>
 									<h2 class="tittle">Here we come!</h2>
 									<p class="tittle parrafo">Coca-Cola, official partner in this one-of-a-kind event, has commissioned us to develop its Shopper Marketing Platform for the US General Market.</p>
+									<p class="tittle">Coca-Cola, official partner in this one-of-a-kind event, has commissioned us to develop its Shopper Marketing Platform for the US General Market.</p>
 									<p><a class="btn btn-lg btn-primary" href="caso_coca.php" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
 								</div>
 								<div class="col-xs-12 col-sm-8">
@@ -56,6 +57,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 									<h1>A SANCTUARY<br> FOR BEAUTY<span class="borde-cocacola"></h1>
 									<h2 class="tittle">A smoothing purchase</h2>
 									<p class="tittle parrafo">In a category where woman find the experience too daunting  and too masculine, we combined crucial female insights with a sophisticated approach to bring to life Philips Female Beauty products.</p>
+									<p class="tittle">In a category where woman find the experience too daunting  and too masculine, we combined crucial female insights with a sophisticated approach to bring to life Philips Female Beauty products.</p>
 									<p><a class="btn btn-lg btn-primary" href="caso_philips.php" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
 								</div>
 								<div class="col-xs-12 col-sm-8">
@@ -73,6 +75,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 									<h1>BRING HOME<br> A ROARING BREAKFAST<span class="borde-cocacola"></h1>
 									<h2 class="tittle">Kick-start achievements</h2>
 									<p class="tittle parrafo">Stepping up to the challenge of switching shoppers, we boosted Zucaritas nutrition energy into accomplishments, becoming Moms' ally while helping their children perform at their best.</p>
+									<p class="tittle">Stepping up to the challenge of switching shoppers, we boosted Zucaritas nutrition energy into accomplishments, becoming Moms' ally while helping their children perform at their best.</p>
 									<p><a class="btn btn-lg btn-primary" href="caso_kellogs.php" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>                       
 								</div>
 								<div class="col-xs-12 col-sm-8">
@@ -90,6 +93,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 									<h1 >EDUCATION <br> THAT ENTERTRAINS<span class="borde-cocacola"></h1>
 									<h2 class="tittle">A tale of oral care</h2>
 									<p class="tittle parrafo">Stepping up to  the challenge of switching shoppers,we boosted Zucaritas nutrition, turning energy into accomplishments, becoming Moms' ally while helping their children perform at their best.</p>
+									<p class="tittle">Stepping up to  the challenge of switching shoppers,we boosted Zucaritas nutrition, turning energy into accomplishments, becoming Moms' ally while helping their children perform at their best.</p>
 									<p><a class="btn btn-lg btn-primary" href="caso_colgate.php" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
 								</div>
 								<div class="col-xs-12 col-sm-8">  

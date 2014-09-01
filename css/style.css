@@ -368,7 +368,7 @@ img.r-s-i{
 	background: url(../img/bgpage-about.jpg) repeat-y;	
 }
 .main{
-	padding-top: 100px;
+	/*padding-top: 100px;*/
 }
 .main ul.smooth{
 	position: fixed;
@@ -652,7 +652,8 @@ h1 span{
 }
 div.row.featurette{
 	background: #596a7a;
-	margin-top: -10px;
+	/*margin-top: -10px;*/
+	margin-top: 95px;
 }
 h3.verde{
 	font-size: 20px;
@@ -1262,12 +1263,14 @@ img.marca-c{
 }
 p.marcas{
 	/*font-weight: bold;*/
+	font-family: 'proximanova-bold';
 	font-size: 20px;
 	text-align: center;
 	margin: 26% 0 0;
 }
 p.leyenda{
 	/*font-weight: bold;*/
+	font-family: 'proximanova-bold';
 	font-size: 20px;
 	text-align: center;
 	border-top: 5px solid #00b0b5; 
