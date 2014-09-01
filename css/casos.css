@@ -59,6 +59,7 @@ body
 	margin-top: 227px;
 	position: absolute;
 	z-index: 1;
+	left: 0px;
 }
 
 #wrapper .right-btt
@@ -70,7 +71,7 @@ body
 	float: right;
 	margin-top: 227px;
 	position: absolute;
-	margin-left: 970px;
+	margin-left: 1101px;
 	z-index: 1;
 }
 

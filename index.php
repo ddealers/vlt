@@ -35,11 +35,11 @@ $news = $n->all(3)->UTF8Encode()->get();
 						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
 						<div class="container">
 							<div class="carousel-caption row">
-								<div class="col-xs-12 col-sm-4">
+								<div class="col-xs-12 col-sm-4 slider-marca">
 									<h1>FIFA WORLD CUP<span>TM<br></span>BRAZIL 2014<span class="borde-cocacola"></span></h1>
 									<h2 class="tittle">Here we come!</h2>
-									<p class="tittle">Coca-Cola, official partner in this one-of-a-kind event, has commissioned us to develop its Shopper Marketing Platform for the US General Market.</p>
-									<p><a class="btn btn-lg btn-primary" href="#" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
+									<p class="tittle parrafo">Coca-Cola, official partner in this one-of-a-kind event, has commissioned us to develop its Shopper Marketing Platform for the US General Market.</p>
+									<p><a class="btn btn-lg btn-primary" href="caso_coca.php" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
 								</div>
 								<div class="col-xs-12 col-sm-8">
 									<img src="./img/coca.png" class="imagen">
@@ -53,10 +53,10 @@ $news = $n->all(3)->UTF8Encode()->get();
 							<div class="carousel-caption row">
 								<div class="col-xs-12 col-sm-4">
 									<p class="tittle">Philips Female Beauty Europe</p>
-									<h1>ASANCTUARY FOR BEAUTY<span class="borde-cocacola"></h1>
+									<h1>A SANCTUARY<br> FOR BEAUTY<span class="borde-cocacola"></h1>
 									<h2 class="tittle">A smoothing purchase</h2>
-									<p class="tittle">In a category where woman find the experience too daunting  and too masculine, we combined crucial female insights with a sophisticated approach to bring to life Philips Female Beauty products.</p>
-									<p><a class="btn btn-lg btn-primary" href="#" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
+									<p class="tittle parrafo">In a category where woman find the experience too daunting  and too masculine, we combined crucial female insights with a sophisticated approach to bring to life Philips Female Beauty products.</p>
+									<p><a class="btn btn-lg btn-primary" href="caso_philips.php" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
 								</div>
 								<div class="col-xs-12 col-sm-8">
 									<img src="./img/philips.png" class="imagen">                    
@@ -70,10 +70,10 @@ $news = $n->all(3)->UTF8Encode()->get();
 							<div class="carousel-caption row">
 								<div class="col-xs-12 col-sm-4">
 									<p class="tittle">Zucaritas Latin America Toolkit</p>
-									<h1>BRING HOME A ROARING BREAKFAST<span class="borde-cocacola"></h1>
+									<h1>BRING HOME<br> A ROARING BREAKFAST<span class="borde-cocacola"></h1>
 									<h2 class="tittle">Kick-start achievements</h2>
-									<p class="tittle">Stepping up to the challenge of switching shoppers, we boosted Zucaritas nutrition energy into accomplishments, becoming Moms' ally while helping their children perform at their best.</p>
-									<p><a class="btn btn-lg btn-primary" href="#" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>                       
+									<p class="tittle parrafo">Stepping up to the challenge of switching shoppers, we boosted Zucaritas nutrition energy into accomplishments, becoming Moms' ally while helping their children perform at their best.</p>
+									<p><a class="btn btn-lg btn-primary" href="caso_kellogs.php" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>                       
 								</div>
 								<div class="col-xs-12 col-sm-8">
 									<img src="./img/zucaritas.png" class="imagen">
@@ -85,12 +85,12 @@ $news = $n->all(3)->UTF8Encode()->get();
 						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
 						<div class="container">
 							<div class="carousel-caption row">
-								<div class="col-xs-12 col-sm-4">
+								<div class="col-xs-12 col-sm-4 slider-colgate">
 									<p class="tittle">Colgate México "Tres pasitos"</p>
-									<h1 >EDUCATION THAT ENTERTRAINS<span class="borde-cocacola"></h1>
+									<h1 >EDUCATION <br> THAT ENTERTRAINS<span class="borde-cocacola"></h1>
 									<h2 class="tittle">A tale of oral care</h2>
-									<p class="tittle">Stepping up to  the challenge of switching shoppers,we boosted Zucaritas nutrition, turning energy into accomplishments, becoming Moms' ally while helping their children perform at their best.</p>
-									<p><a class="btn btn-lg btn-primary" href="#" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
+									<p class="tittle parrafo">Stepping up to  the challenge of switching shoppers,we boosted Zucaritas nutrition, turning energy into accomplishments, becoming Moms' ally while helping their children perform at their best.</p>
+									<p><a class="btn btn-lg btn-primary" href="caso_colgate.php" role="button">SEE MORE<img src="./img/play.png" class="play"></a></p>
 								</div>
 								<div class="col-xs-12 col-sm-8">  
 									<img src="./img/Colgate_img.png" class="imagen">
@@ -128,25 +128,25 @@ $news = $n->all(3)->UTF8Encode()->get();
 				<div class="col-sm-6 col-md-3">
 					<img src="./img/icon-WHY.png" class="icon1">
 					<h2 class="text-tittle">Who we are</h2>
-					<p class="contenido">Our vast experience across multiple markets empowers us to understand unique shopping behaviors in many different cultures.</p>
+					<p class="contenido see">Our vast experience across multiple markets <br> empowers us to understand unique shopping<br> behaviors in many different cultures.</p>
 					<a href="about.php#why" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
 				</div><!-- /.col-lg-4 -->
 				<div class="col-sm-6 col-md-3">
 					<img src="./img/mundo_marcado.png" class="icon2">
 					<h2 class="text-tittle">Our story</h2>
-					<p class="contenido">We started before Shopper Marketing even existed and today after  a little over 25 years, we have expanded to the US, LATAM & Europe, with global clients.</p>
+					<p class="contenido">We started before Shopper Marketing<br> even existed and today after  a little over<br> 25 years, we have expanded to the US,<br> LATAM & Europe, with global clients.</p>
 					<a href="about.php#story" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
 				</div>
 				<div class="col-sm-6 col-md-3">
 					<img src="./img/icon-bolsa.png" class="icon3">
 					<h2 class="text-tittle">Our capabilities</h2>
-					<p class="contenido">We create shopper marketing campaigns that the changes people's  behavior when they're in the mood to shop, in both the real world and the digital world.</p>
+					<p class="contenido">We create shopper marketing campaigns<br> that the changes people's  behavior<br> when they're in the mood to shop, in both<br> the real world and the digital world.</p>
 					<a href="about.php#capabilities" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
 				</div>
 				<div class="col-sm-6 col-md-3">
 					<img src="./img/carro_compras.png" class="icon4">
 					<h2 class="text-tittle">Who we are</h2>
-					<p class="contenido">Latin America's fastest growing shopper marketing agency -independent, creative, free spirited, nimble and entrepreneurial.</p>
+					<p class="contenido">Latin America's fastest growing<br> shopper marketing agency<br> -independent, creative, free spirited,<br> nimble and entrepreneurial.</p>
 					<a href="about.php#who" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
 				</div>
 			</div>
@@ -164,7 +164,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 		</div>
 <!-- ******************************************** -->
 		<div id="clients" class="row featurette-white">
-			<div class="col-md-7 col-sm-6">
+			<div class="col-md-7 col-sm-6 Marcal">
 				<h1 class="seduce">WE <br> SEDUCE <br> SHOPPERS <span class="borde-we"></span></h1>
 				<h2 class="tittle-forAll">for all of these <br> great brands</h2>
 			</div>
@@ -179,14 +179,14 @@ $news = $n->all(3)->UTF8Encode()->get();
 			</div>
 			<div class="col-md-7 col-sm-6">
 				<h2 class="tittle-all">All shoppers are diverse, <br> so is every shopping trip<span class="verde"></span></h2>
-				<h1 class="solution-every">EVERY CHALLENGE <br> REQUIRES<span class="text-green"><br>A TOILER MADE <br> SOLUTION</span></h1>
+				<h1 class="solution-every">EVERY CHALLENGE <br> REQUIRES<span class="text-green"><br>A TAILOR MADE <br> SOLUTION</span></h1>
 			</div>
 		</div>
 <!-- ******************************************** -->
 		<div id="work" class="row featurette-clients y">
-			<div class="col-md-8">
-				<h2 class="tittle">We create<br> tailor-made solutions<span class="made-s"></span></h2>
-				<h1 class="solution-text">FOR VARIETY OF CATEGORIES AND SHOPPER MINDSETS</h1>
+			<div class="col-md-8 fotoProducto">
+				<h2 class="tittle empresa">We create<br> tailor-made solutions<span class="made-s"></span></h2>
+				<h1 class="solution-text">FOR A VARIETY OF CATEGORIES AND SHOPPER MINDSETS</h1>
 			</div>
 			<div class="moreinfo col-sm-12 col-md-4">
 				<img src="./img/coca-2.png" class="marca-co">
@@ -219,9 +219,9 @@ $news = $n->all(3)->UTF8Encode()->get();
 		</div>
 <!-- ******************************************** -->
 		<div class="row featurette-hand">
-			<div class="col-md-7">
+			<div class="col-md-7 womenB">
 				<h2 class="tittle-women">We change <br> people's shopping <br> behaviors <span class="botella"></span></h2>
-				<h1 class="h1Tittle">WHEN THEY <br> ARE IN THE MOOD <br> TO SHOP</h1>
+				<h1 class="h1Tittle when">WHEN THEY <br> ARE IN THE MOOD <br> TO SHOP</h1>
 			</div>
 		</div>
 <!-- ******************************************** -->

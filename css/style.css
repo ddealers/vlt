@@ -84,6 +84,7 @@ body {
 .marketing .col-md-3 p {
   margin-right: 10px;
   margin-left: 10px;
+  width: 263px;
 }
 
 
@@ -491,6 +492,12 @@ img.r-s-i{
 	font-style: italic;
 	text-align: center;
 }
+.tittle.parrafo{
+	text-align: left;
+	width: 287px;
+	font-size: 12px;
+	margin-left: 100px;
+}
 h1, .h1 {
 	font-size: 25px;
 	font-weight: bold;
@@ -544,11 +551,11 @@ p {
 h1 span.borde-cocacola{
 	height: 5px;
 	background: #fff;
-	width: 120px;
+	width: 170px;
 	margin: auto;
 	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 p.tittle-coca-cola{
 	font-size: 13px;
@@ -583,7 +590,7 @@ div.carousel-caption{
 	text-shadow: none;
 	background: none;
 	border: none;
-	margin-top: -5px;
+	margin-left: 120px;
 	font-family: 'proximanova-bold';
 }
 .carousel-control.right {
@@ -782,11 +789,14 @@ p.liga{
 		font-size: 40px;
 	}
 	.img-responsive {
-		margin-left: 20%;
+		margin-left: 25%;
+		margin-top: 35px;
 	}
 	div.bloque {
 		position: absolute;
 		width: 445px;
+		right: 79px;
+		top: 150px;
 	}
 	p.porcentaje {
 		width: 170px;
@@ -796,9 +806,15 @@ p.liga{
 	}
 	h1{
 		font-size: 40px;
+		width: 470px;
 	}
 	.tittle {
-		font-size: 40px;
+		font-size: 33px;
+		margin: auto;
+		width: 470px;
+	}
+	.tittle.empresa {
+		width: 582px;
 	}
 	.carousel-caption p {
 		font-size: 14px;
@@ -808,7 +824,16 @@ p.liga{
 		right: -45px;
 	}
 	.col-sm-4 {
-		margin-left: 55px;
+		margin-left: 110px;
+		margin-top: 120px;
+	}
+	.col-sm-4.slider-colgate{
+		margin-left: 45px;
+		margin-top: 120px;
+	}
+	.col-sm-4.slider-marca {
+		margin-left: 120px;
+		margin-top: 160px;
 	}
 	div.row.featurette {
 		background: url(../img/globo_texto.png) #596a7a no-repeat 70px;
@@ -875,6 +900,9 @@ div.col-md-3{
 a.icons{
 	font-family: 'proximanova-bold';
 	color: #5a5a5a;
+}
+p.contenido.see {
+	margin-bottom: 29px;
 }
 p.contenido{
 	font-style: italic;
@@ -972,10 +1000,11 @@ div.row.featurette-coca {
 	background: #00a8b0;
 }
 div.col-md-7 h3.normal {
-	font-size: 20px;
 	font-family: 'georgia';
 	font-style: italic;
 	text-align: center;
+	margin-top: 90px;
+	width: 388px;
 }
 h2.featurette-heading-rojo {
 	color: #e2202c;
@@ -1023,7 +1052,7 @@ h3.normal{
 		padding-bottom: 30px;
 	}
 	div.row.featurette-coca {
-		background: url(../img/hoja.png) #00a8b0 no-repeat 10px;
+		background: url(../img/bg-sepa2.png) #00a8b0 no-repeat 100px;
 		background-size: 100%;
 	}
 	img.heart {
@@ -1034,10 +1063,13 @@ h3.normal{
 	}
 	.row.featurette-coca .col-sm-6 {
 		width: 50%;
-		margin-top: 60px;
-		margin-bottom: 40px;
+		margin-top: 0px;
+		margin-bottom: 94px;
 		padding-top: 32px;
 	}
+@media (min-width: 1024px){
+	.col-md-7 {
+		padding-right: 231px;
 }
 @media (min-width: 1200px){
 	div.col-md-7 h3.normal {
@@ -1050,11 +1082,10 @@ h3.normal{
 		background-size: 85%;
 	}
 	img.heart {
-		margin-left: 40%;
-		width: 70%;
-	}
-		div.row.featurette-coca {
-		background-size: 100%;
+		margin-left: 45%;
+		width: 52%;
+		margin-top: 50px;
+		margin-bottom: 67px;
 	}
 	a.navbar-brand img.logo {
 		top: 13px;
@@ -1078,6 +1109,9 @@ h3.normal{
 div.row.featurette-white {
 	background: #fff;
 	/*margin-top: -21px;*/
+}
+.col-md-7.col-sm-6.Marcal {
+	padding-left: 126px;
 }
 h1.seduce{
 	border-bottom: 5px solid #00b0b5;
@@ -1117,6 +1151,8 @@ h1.seduce{
 	}
 	h2.tittle-forAll {
 		font-size: 40px;
+		padding-left: 90px;
+		width: 372px;
 	}
 	img.logos-marcas {
 		margin-left: -135px;
@@ -1182,7 +1218,6 @@ h1.solution-every span.text-green{
 		margin-bottom: 130px;
 	}
 	.row.featurette-divider.car .col-sm-6 {
-		margin-right: -79px;
 		margin-top: 75px;
 	}
 }
@@ -1209,7 +1244,9 @@ h1.solution-text{
 	text-align: center;
 	border-top: 5px solid #00b0b5;
 	padding: 10px;
-	margin: 0px 20px 15px 20px;
+	margin: 25px 20px 15px 80px;
+	width: 655px;
+	padding-top: 25px;
 }
 img.marca-co{
 	width: 100%;
@@ -1339,14 +1376,28 @@ h1.h1Tittle{
 }
 @media (min-width: 1024px){
 	.tittle-women {
-		margin-top: 100px;
 		font-size: 40px;
+		position: absolute;
+		right: 100px;
+		top: -35px;
 	}
 	h1.h1Tittle {
 		font-size: 40px;
 	}
+	h1.h1Tittle.when {
+		font-size: 40px;
+		font-weight: normal;
+		font-family: 'proximanova-regular';
+		position: absolute;
+		right: 30px;
+		bottom: 258px;
+	}
 	.row.featurette-hand .col-md-7 {
 		margin-left: 500px;
+	}
+	.row.featurette-hand .col-md-7.womenB {
+		height: 100%;
+		padding-top: 0px:;
 	}
 }
 /*======================================
@@ -1658,6 +1709,9 @@ a.links-d{
 img.play{
 	margin-left: 10px;
 }
+.col-md-8.fotoProducto {
+
+	}
 /*---------------------------------
 				NEWS
 ---------------------------------*/
