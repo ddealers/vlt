@@ -434,6 +434,7 @@ img.r-s-i{
 	font-size: 37px;
 	text-align: center;
 	text-transform: uppercase;
+	margin-left: 145px;
 }
 .main-view h1 span{
 	background-color: #00B2B6;
@@ -752,6 +753,11 @@ div.row.featurette{
 	background: #596a7a;
 	padding-top: 30px;
 }
+p.porcentaje2 span.argentina{
+	font-size: 8px;
+	font-weight: normal;
+	font-family: 'georgia';
+}
 h3.verde{
 	font-size: 20px;
 	font-family: 'georgia';
@@ -815,20 +821,20 @@ p.liga{
 		h2 span.pies{
 		height: 5px;
 		background: #00b0b5;
-		width: 120px;
+		width: 170px;
 		margin: auto;
 		display: block;
-		margin-top: 10px;
+		margin-top: 15px;
 		margin-bottom: 10px;
 	}
 	h2 span.cabeza{
 		height: 5px;
 		background: #00b0b5;
-		width: 120px;
+		width: 170px;
 		margin: auto;
 		display: block;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 20px;
+		margin-bottom: 15px;
 	}
 	h2.featurette-heading {
 		border: none;
@@ -871,7 +877,7 @@ p.liga{
 	}
 	p.liga {
 		color: #5a5a5a;
-		padding-top: 155px;
+		padding-top: 140px;
 	}
 	div.bloque{
 		position: absolute;
@@ -901,7 +907,7 @@ p.liga{
 		margin-left: 0px;
 	}
 	p.porcentaje2 {
-		margin-right: 0px;
+		margin-right: 5px;
 	}
 	.solution-text.variety{
 		width: 500px;
@@ -941,11 +947,13 @@ p.liga{
 		margin-left: 190px;
 	}
 	p.porcentaje {
-		width: 170px;
-		margin-left: 20px;
+		width: 171px;
+		margin-left: 40px;
+		font-style: normal;
 	}
 	p.porcentaje2 {
-		width: 170px;
+		width: 205px;
+		font-style: normal;
 	}
 	h1{
 		font-size: 40px;
@@ -1097,7 +1105,6 @@ div.container.marketing{
 		width: 73%;
 	}
 	.marketing .col-md-3 p {
-	  width: 223px;
 	  margin-bottom: 10px;
 	}
 	a.icons.verPlay{
@@ -1113,7 +1120,7 @@ div.container.marketing{
 		font-size: 40px;
 	}
 	h2.distinctive {
-		padding-top: 100px;
+		padding-top: 20px;
 		font-size: 33px;
 	}
 	h1.gris {
@@ -1252,24 +1259,24 @@ h3.normal{
 		font-size: 40px;
 	}
 	.row.featurette-coca .col-sm-6 {
-		margin-left: -60px;
+		margin-left: -45px;
 	}
 	.col-sm-4 {
 		margin-left: 20px;
 	}
 	div.row.featurette-coca {
-		background: url(../img/bg-sepa2.png) #00a8b0 no-repeat 45px 0px;
-		background-size: 93%;
+		background: url(../img/bg-sepa2.png) #00a8b0 no-repeat 38px -16px;
+		background-size: 95%;
 	}
 	div.col-md-7 h3.normal {
 		width: 500px;
-		font-size: 40px;
-		padding-top: 60px;
+		font-size: 37px;
+		padding-top: 25px;
 	}
 	img.heart {
-		margin-left: 46%;
-		width: 52%;
-		margin-top: 73px;
+		margin-left: 48%;
+		width: 55%;
+		margin-top: 22px;
 		margin-bottom: 67px;
 	}
 	a.navbar-brand img.logo {
@@ -1349,7 +1356,7 @@ div.row.featurette-white {
 	}
 	.col-md-7.Marcal{
 		margin-top: 90px;
-		margin-left: 100px;
+		margin-left: 105px;
 		width: 200px;
 	}
 }
@@ -1420,7 +1427,7 @@ h1.colorBlanco span.text-green{
 		width: 57%;
 	}
 	h1.colorBlanco {
-		margin-left: 64px;
+		margin-left: 15px;
 		margin-top: 20px;
 	}
 	h2.tittle-all {
@@ -1439,6 +1446,8 @@ h1.colorBlanco span.text-green{
 	}
 	h2.tittle-all {
 		font-size: 33px;
+		margin-top: -15px;
+		margin-right: 80px;
 	}
 	h1.colorBlanco span.text-green {
 		font-size: 40px;
@@ -1844,8 +1853,8 @@ p.leyend{
 		text-align: center;
 	}
 	img.canasto {
-		margin-left: -31px%;
-		margin-top: 30px;
+		margin-left: -31px;
+		margin-top: 63px;
 		width: 70%;
 	}
 	p.leyend {
@@ -1863,7 +1872,7 @@ p.leyend{
 		font-size: 26px;
 	}
 	.titulo.we{
-		width: 200px;
+		width: 220px;
 		margin: auto;
 		font-size: 30px;
 	}
@@ -1977,6 +1986,7 @@ a.links-d{
 	p.contact {
 		width: 420px;
 		font-size: 34px;
+		line-height: 35px;
 	}
 	.container.marketing-fondoUl .col-sm-6.col-md-4 {
 		width: 23.333333%;
@@ -1985,7 +1995,8 @@ a.links-d{
 		margin-bottom: 60px;
 	}
 	h2.holaContact span.hellow {
-		margin-left: 35px;
+		margin-left: 0px;
+		width: 170px;
 	}
 }
 /*======================================
@@ -2286,6 +2297,7 @@ img.play{
 	}
 	#about img.right-asset{
 		margin-left: 0px;
+		margin-top: 85px;
 	}
 	#about img.left-asset{
 		margin-left: -30px;

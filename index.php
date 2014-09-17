@@ -116,7 +116,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 					<h3 class="verde">In the age <br> of digital shoppers</h3>
 					<h2 class="featurette-heading"><span class="cabeza"></span>MARKETING <br> IS LIMITLESS!<span class="pies"></span></h2>
 					<p class="porcentaje"> <span>44%</span><br>use mobile to research products in the beginning of a shopping trip</p>
-					<p class="porcentaje2"> <span>21%</span><br>who started with a local search ended up marking the purchase online</p>
+					<p class="porcentaje2"> <span>21%</span><br>who started with a local search ended up marking the purchase online <span class="argentina">(Argentina, 2013)</span></p>
 					<p class="liga">Numbers for Argentina 2013 from http://think.withgoogle.com/mobileplanet/en/</p>
 				</div>
 			</div>
@@ -272,7 +272,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 <!-- ******************************************** -->
 		<div class="row featurette-grisc">
 			<div class="col-md-7 col-sm-6 love">
-				<h1 class="titulo we">WE' LOVE <br> TO HEAR <span class="we-loved"></span><span class="verde"></span></h1>
+				<h1 class="titulo we">WE'D LOVE <br> TO HEAR <span class="we-loved"></span><span class="verde"></span></h1>
 				<h2 class="tittle-love">about your <br> business <br> challenges</h2>
 			</div>
 			<div class="col-md-5 col-sm-6">
