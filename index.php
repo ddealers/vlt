@@ -129,7 +129,7 @@ $news = $n->all(3)->UTF8Encode()->get();
 				<h1 class="gris">WE CREATE SHOPPER SOLUTIONS THAT IMPACT SALES.</h1>
 				<div class="col-sm-6 col-md-3">
 					<img src="./img/icon-WHY.png" class="icon1">
-					<h2 class="text-tittle">Who we are</h2>
+					<h2 class="text-tittle">Why Visual Latina?</h2>
 					<p class="contenido see">Our vast experience across multiple markets <br> empowers us to understand unique shopping<br> behaviors in many different cultures.</p>
 					<a href="about.php" class="icons">SEE MORE<img src="./img/play2.png" class="play"></a>
 				</div><!-- /.col-lg-4 -->

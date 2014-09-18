@@ -417,7 +417,7 @@ img.r-s-i{
 }
 .main-view .cite{
 	font-family: 'georgia';
-	font-size: 32px;
+	font-size: 37px;
 	font-style: italic;
 	text-align: center;
 }
@@ -428,13 +428,16 @@ img.r-s-i{
 	height: 6px;
 	margin: 34px auto;
 }
+.main-view h1.visual-l{
+	margin-left: -45px;
+}
 .main-view h1{
 	font-family: 'proximanova-bold';
 	color: #00B2B6;
 	font-size: 37px;
 	text-align: center;
 	text-transform: uppercase;
-	margin-left: 145px;
+	margin-left: 180px;
 	margin-top: 5px;
 }
 .main-view h1 span{
@@ -450,11 +453,14 @@ img.r-s-i{
 	font-size: 32px;
 	font-weight: bold;
 }
+.main-view h3.h3-we{
+	font-size: 16px;
+}
 .main-view h3{
 	font-family: 'georgia';
 	font-style: italic;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 31px;
 	margin: 30px 0;	
 }
@@ -464,7 +470,7 @@ img.r-s-i{
 .main-view .paragraph p{
 	font-family: georgia;
 	font-style: italic;
-	font-size: 17px;
+	font-size: 15px;
 	text-align: justify;
 }
 .main-view .col-md-7{
@@ -479,9 +485,13 @@ img.r-s-i{
 .main-view p.capabilities span{
 	color: #00B2B6;
 }
-#who .img-container{
+#about .main-view #who .img-contenedor{
+	margin: 0 auto !important;
+}
+#who .img-contenedor{
 	width: 640px;
 }
+
 /*======================================
 					SLIDER
 ======================================*/
@@ -1131,7 +1141,7 @@ div.container.marketing{
 		padding-bottom: 80px;
 	}
 	div.col-md-3 h2 {
-		font-size: 30px;
+		font-size: 28px;
 	}
 	img.icon1 {
 		width: 55%;
@@ -1633,9 +1643,12 @@ h1.h1Tittle{
 	}
 	.tittle-women {
 		font-size: 33px;
+		margin-top: 80px;
+		margin-left: 10px;
 	}
 	h1.h1Tittle.when {
-		font-size: 36px;
+		font-size: 40px;
+		margin-left: 20px;
 	}
 }
 @media (min-width: 1200px){
@@ -1976,18 +1989,20 @@ a.links-d{
 	.container.marketing-fondoUl .col-md-4 {
 		width: 23.333333%;
 		margin-top: 30px;
-		margin-right: 215px
+		margin-right: 300px
 	}
 }
 @media (min-width: 1024px){
 	h2.holaContact {
 		font-size: 70px;
-		margin-left: 120px;
+		margin-left: 200px;
+		padding-top: 70px;
 	}
 	p.contact {
 		width: 420px;
 		font-size: 34px;
 		line-height: 35px;
+		margin-left: 80px;
 	}
 	.container.marketing-fondoUl .col-sm-6.col-md-4 {
 		width: 23.333333%;
@@ -2215,13 +2230,13 @@ img.play{
 		margin-top: -105px;
 	}
 	#about .main-view .cite {
-		margin-top: -25px;
+		margin-top: 65px;
 	}
 	#about .main-view div {
-		padding-left: 1px !important;
+		margin-left: -35px !important;
 	}
 	#about .main-view img.center {
-		width: 100%;
+		width: 80%;
 	}
 	#about .main-view > div .row {
 		margin: 50px 0 10px;
@@ -2297,14 +2312,14 @@ img.play{
 		margin-bottom: 10px;
 	}
 	#about img.right-asset{
-		margin-left: 0px;
-		margin-top: 85px;
+		margin-left: -60px;
+		margin-top: 110px;
 	}
 	#about img.left-asset{
 		margin-left: -30px;
 	}
 	#about.main ul.smooth li a {
-		font-size: 18px;
+		font-size: 15px;
 	}
 }
 
