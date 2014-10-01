@@ -1,0 +1,771 @@
+body
+{
+	background: #fff;
+	margin: 0px;
+	padding: 0px;
+	font-family: proxima_nova_rgregular;
+	font-size: 12px;
+}
+
+.non
+{
+	display: none;
+	position: absolute;
+	width: 995px;
+	margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-regular.eot');
+    src: url('../fonts/proximanova-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular.woff') format('woff'),
+         url('../fonts/proximanova-regular.ttf') format('truetype'),
+         url('../fonts/proximanova-regular.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proximanova-bold.eot');
+    src: url('../fonts/proximanova-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold.woff') format('woff'),
+         url('../fonts/proximanova-bold.ttf') format('truetype'),
+         url('../fonts/proximanova-bold.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'georgiaregular';
+    src: url('../fonts/georgia.eot');
+    src: url('../fonts/georgia.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/georgia.woff') format('woff'),
+         url('../fonts/georgia.ttf') format('truetype'),
+         url('../fonts/georgia.svg#georgiaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#header-nav
+{
+	width: 100%;
+	height: 90px;
+	background: #00b0b5;
+	position: fixed;
+	z-index: 2;
+}
+
+#header-nav .logo
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+
+#header-nav .menu
+{
+	float: left;
+	height: 90px;
+	width: 550px;
+	margin-left: 50px;
+}
+
+#header-nav .social
+{
+	height: 90px;
+	width: 230px;
+	right: 0;
+	position: absolute;
+}
+
+#header-nav .btts { margin-top: 27px; }
+
+
+#cssmenu
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	height: 90px;
+	text-transform: uppercase;
+}
+#cssmenu ul, #cssmenu li
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#cssmenu ul {position: relative; z-index: 597; }
+#cssmenu ul li
+{
+	float: left;
+	min-height: 1px;
+	vertical-align: middle;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {position: relative; z-index: 599; cursor: default;}
+#cssmenu ul ul
+{
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 598;
+	width: 130px;
+}
+#cssmenu ul ul li {float: none;	background-color: #000;}
+#cssmenu ul ul ul {top: 0; left: auto; right: -99.5%; }
+#cssmenu ul li:hover > ul { visibility: visible;}
+#cssmenu ul ul {bottom: 0; left: 0;}
+#cssmenu ul ul {margin-top: 0; }
+#cssmenu ul ul li {font-weight: normal;}
+#cssmenu a
+{
+	display: block;
+	text-decoration: none;
+	line-height: 88px;
+	padding: 0 20px;
+	font-size: 18px;
+	color: #fff;
+}
+#cssmenu a:hover { color: #90ffff; }
+#cssmenu .active { color: #90ffff; }
+
+
+
+.JB_FWS
+{
+	height: 780px;
+	background: #dfdfdf;
+	float: left;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+.JB_Border {
+    width:100%;
+    height:15px;
+    position: absolute;
+}
+
+.JB_Border.Top {
+    top:0;
+    left:0;
+}
+.JB_Border.Bottom {
+    bottom:0;
+    left:0;
+}
+
+.JB_Button_Left {
+    padding:15px;
+    width:21px;
+    height:30px;
+    background-image: url("../images/arrleft.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    top:45%;
+    left:0;
+    cursor: pointer;
+}
+
+.JB_Button_Left_BG {
+    padding:15px;
+    width:21px;
+    height:30px;
+    opacity:0.44;
+    position: absolute;
+    top:45%;
+    left:0;
+}
+
+.JB_Button_Right {
+    padding:15px;
+    width:21px;
+    height:30px;
+    background-image: url("../images/arrright.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    top:45%;
+    right:0;
+    cursor: pointer;
+}
+
+.JB_Button_Right_BG {
+    padding:15px;
+    width:21px;
+    height:30px;
+    opacity:0.44;
+    position: absolute;
+    top:45%;
+    right:0;
+}
+
+.JB_Container {
+
+    width:9999px;
+    height:780px;
+    margin:0 auto;
+    position: absolute;
+    overflow: hidden;
+    left:0;
+    cursor:hand;
+    cursor:grab!important;
+    cursor:-moz-grab;
+    cursor: url(https://mail.google.com/mail/images/2/openhand.cur), pointer!important;
+    cursor:-webkit-grab;
+}
+
+.JB_Slide
+{
+	height: 780px;
+	float: left;
+	position: relative;
+}
+
+.JB_Slide1
+{
+	background: transparent url(../images/slider1.jpg) no-repeat center 0px;
+}
+
+.JB_Slide2
+{
+	background: transparent url(../images/slider2.jpg) no-repeat center center;
+}
+
+.JB_Slide3
+{
+	background: #172489 url(../images/slider3.jpg) no-repeat center center;
+}
+
+.JB_Slide4
+{
+	background: transparent url(../images/slider4.jpg) no-repeat center center;
+}
+
+.JB_Slide5
+{
+	background: #000;
+}
+
+.JB_Slide_Content {
+    width:960px;
+    margin: 0 auto;
+    margin-top:15px;
+    position: relative;
+}
+
+.JB_Pagination {
+    width:100%;
+    height:12px;
+    position: absolute;
+    bottom:15px;
+    left:0;
+}
+
+.JB_Pages {
+    display: table;
+    margin: 0 auto;
+}
+
+.JB_Page {
+    background-image:url("http://www.jbmarket.net/demos/fws-slider/img/pagination_button.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width:13px;
+    height:12px;
+    float:left;
+    margin-left:5px;
+    cursor: pointer;
+}
+.JB_Page:hover, .JB_Page.active  {
+    background-position: -13px 0px;
+}
+
+.JB_ReadMore {
+    float:left;
+    color:#fff;
+    margin-top:15px;
+    position: relative;
+}
+
+.JB_ReadMore_BG {
+    top:0;
+    lef:0;
+    position: absolute;
+    background:#000;
+    opacity:0.44;
+    width:100%;
+    height:100%;
+}
+
+.JB_ReadMore a {
+    padding:10px 30px 10px 20px;
+    position: relative;
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    background-image:url("http://www.jbmarket.net/demos/fws-slider/img/button_arrow.png");
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    font-size: 12px;
+}
+
+/**** Slide ****/
+
+#Slide1
+{
+	width: 347px;
+	margin-top: 130px;
+}
+
+#Slide1 .btt
+{
+	width: 110px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+#Slide2
+{
+	width: 377px;
+	margin-top: 130px;
+}
+
+#Slide2 .btt
+{
+	width: 110px;
+	height: 30px;
+	margin: 20px auto;
+}
+
+#Slide3
+{
+	width: 433px;
+	margin-top: 130px;
+}
+
+#Slide3 .btt
+{
+	width: 110px;
+	height: 30px;
+	margin: 20px auto;
+}
+
+#Slide4
+{
+	width: 335px;
+	margin-top: 130px;
+}
+
+#Slide4 .btt
+{
+	width: 110px;
+	height: 30px;
+	margin: 20px auto;
+}
+
+#about
+{
+	width: 100%;
+	height: 800px;
+	background: #E3E3E3 url(../images/bgabout.jpg) repeat center center;
+	padding-top: 60px;
+}
+
+#about .caja
+{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#about .text
+{
+	font-family: georgiaregular;
+	font-size: 40px;
+	color: #5A6978;
+	text-align: center;
+	font-style: italic;
+}
+
+#about .linea
+{
+	margin: 25px auto;
+	text-align: center;
+}
+
+#about .txt-nova
+{
+	font-family: proxima_nova_rgbold;
+	font-size: 40px;
+	color: #5A6978;
+	text-align: center;
+}
+
+#about .seccion-1
+{
+	width: 280px;
+	height: 350px;
+	text-align: center;
+	font-size: 14px;
+	color: #5A6978;
+	float: left;
+	margin: 10px;
+}
+
+#about .tit
+{
+	font-family: georgiaregular;
+	font-size: 23px;
+	font-style: italic;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#about .texto
+{
+	height: 60px;
+}
+
+#about .lintxt
+{
+	margin: 0 0 5px 0;
+}
+
+#about .seemore
+{
+	margin: 15px 0;
+
+}
+
+#clients
+{
+	height: 730px;
+	background-color: #FAFBFA;
+}
+
+#clients .caja
+{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#clients .txtbox
+{
+	width: 270px;
+	float: left;
+	margin-top: 180px;
+	text-align: center;
+	margin-left: 100px;
+}
+
+#clients .text-1
+{
+	font-family: proxima_nova_rgbold;
+	font-size: 42px;
+	color: #5A6978;
+	margin-bottom: 10px;
+}
+
+#clients .text-2
+{
+	margin-top: 15px;
+	font-size: 42px;
+	color: #5A6978;
+	font-family: georgiaregular;
+	font-style: italic;
+}
+
+#clients .listclient
+{
+	width: 446px;
+	float: left;
+	margin-top: 190px;
+	margin-left: 150px;
+}
+
+/******* work ********/
+
+#work
+{
+	width: 100%;
+	height: 640px;
+	background: #eaebea;
+}
+
+#work .box
+{
+	width: 1300px;
+	margin: 0 auto;
+}
+
+#work .caja
+{
+	width: 852px;
+	float: left;
+	height: 250px;
+}
+
+#work .title
+{
+	font-family: georgiaregular;
+	font-size: 30px;
+	color: #344;
+	text-align: center;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+#work .subtitle
+{
+	font-family: proxima_nova_rgbold;
+	font-size: 30px;
+	color: #344;
+	text-align: center;
+	font-style: normal;
+	margin-top: 20px;
+}
+
+#work .itemwork
+{
+	width: 366px;
+	height: 250px;
+	float: left;
+}
+
+#work .espacio
+{
+	height: 150px;
+}
+
+
+/****** news ******/
+
+#news
+{
+	width: 100%;
+	background: transparent url(../images/bgnews.jpg) repeat-x center top;
+	height: 730px;
+}
+
+#news .box
+{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#news .espacio
+{
+	height: 110px;
+}
+
+#news .title
+{
+	width: 1000px;
+	background: transparent url(../images/bgtitlenews.png) repeat-x center center;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	font-size: 20px;
+	text-align: center;
+	color: #00B1B5;
+	font-style: italic;
+	font-family: georgiaregular;
+	font-weight: bold;
+}
+
+#news .content-article
+{
+	width: 990px;
+	margin: 20px auto;
+}
+
+#news .article
+{
+	width: 310px;
+	float: left;
+	margin: 0 10px;
+}
+
+#news .imagen
+{
+	width: 310px;
+	height: 250px;
+}
+
+#news .info
+{
+	width: 310px;
+	height: 179px;
+	background: transparent url(../images/article-info.png) repeat-x center bottom;
+	position: relative;
+	margin-top: -12px;
+}
+
+#news .caja-article
+{
+	width: 270px;
+	height: 169px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+#news .title-article
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-family: proxima_nova_rgbold;
+	color: #00B1B5;
+}
+
+#news .extract-article
+{
+	line-height: 22px;
+	font-size: 20px;
+	font-family: georgiaregular;
+	color: #344;
+}
+
+#news .button { margin-top: 15px; }
+
+#news .data
+{
+	bottom: 0;
+	position: absolute;
+	margin-bottom: 6px;
+	right: 0px;
+	width: 117px;
+        color: black;
+	text-align: center;
+}
+
+#newsletter
+{
+	width: 630px;
+	height: 80px;
+	margin: 50px 230px;
+}
+
+#newsletter .campo
+{
+	width: 250px;
+	background: #fff;
+	height: 57px;
+	border: 1px solid #344;
+	padding: 0 10px;
+        font-style: italic;
+}
+
+#newsletter .button
+{
+	background: transparent;
+	width: 100px;
+	height: 57px;
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	margin-top: 0px;
+}
+
+#newsletter .newsletter-form
+{
+	float: left;
+	width: 400px;
+}
+
+#newsletter .more-news
+{
+	float: right;
+	width: 148px;
+	margin-top: 5px;
+}
+
+
+#contact
+{
+	height: 610px;
+	background: #344;
+	width: 100%;
+	color: #fff;
+}
+
+#contact .caja
+{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#contact .hello
+{
+	width: 500px;
+	float: left;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 36px;
+	font-family: proxima_nova_rgbold;
+}
+
+#contact .hellotitle
+{
+	font-size: 70px;
+	font-family: georgiaregular;
+	font-style: italic;
+	margin-bottom: -15px;
+}
+
+#contact .item
+{
+	width: 220px;
+	height: 130px;
+	float: left;
+	font-size: 12px;
+	font-family: proxima_nova_rgregular;
+	font-style: normal;
+	margin-left: 10px;
+	margin-top: 2px;
+        color: #9ea0a1;
+}
+
+
+#contact .columna
+{
+	width: 460px;
+	float: left;
+	margin-top: 80px;
+}
+
+#contact .cabeza
+{
+	font-size: 14px;
+	font-family: georgiaregular;
+	font-weight: bold;
+        color: white;
+	font-style: normal;
+}
+
+#contact a
+{
+	font-size: 12px;
+	font-family: georgiaregular;
+	font-style: normal;
+	text-decoration: none;
+	color: #fff;
+}
+
+#contact a:hover
+{
+	color: #00afb3;
+}

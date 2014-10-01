@@ -54,12 +54,11 @@ body
 {
 	width: 27px;
 	height: 46px;
-	background: transparent url(../img/left-btt.png) no-repeat;
+	background: transparent url(../images/left-btt.png) no-repeat;
 	float: left;
 	margin-top: 227px;
 	position: absolute;
 	z-index: 1;
-	left: 0px;
 }
 
 #wrapper .right-btt
@@ -67,11 +66,11 @@ body
 	width: 27px;
 	margin: 0 auto;
 	height: 46px;
-	background: transparent url(../img/right-btt.png) no-repeat;
+	background: transparent url(../images/right-btt.png) no-repeat;
 	float: right;
 	margin-top: 227px;
 	position: absolute;
-	margin-left: 1100px;
+	margin-left: 970px;
 	z-index: 1;
 }
 
@@ -607,7 +606,7 @@ body
 
 #navegacion
 {
-	background: transparent url(../img/bgnavegacion.jpg) no-repeat top center;
+	background: transparent url(../images/bgnavegacion.jpg) no-repeat top center;
 	width: 922px;
 	height: 30px;
 	text-align: left;
@@ -616,25 +615,25 @@ body
 
 #navegacion .point1
 {
-	background: transparent url(../img/point.png) no-repeat top left;
+	background: transparent url(../images/point.png) no-repeat top left;
 	margin-left: 3px;
 }
 
 #navegacion .point2
 {
-	background: transparent url(../img/point.png) no-repeat top left;
+	background: transparent url(../images/point.png) no-repeat top left;
 	margin-left: 305px;
 }
 
 #navegacion .point3
 {
-	background: transparent url(../img/point.png) no-repeat top left;
+	background: transparent url(../images/point.png) no-repeat top left;
 	margin-left: 607px;
 }
 
 #navegacion .point4
 {
-	background: transparent url(../img/point.png) no-repeat top left;
+	background: transparent url(../images/point.png) no-repeat top left;
 	margin-left: 909px;
 }
 
@@ -649,25 +648,25 @@ body
 
 #navegacion .point1-a
 {
-	background: transparent url(../img/point-a.png) no-repeat top left;
+	background: transparent url(../images/point-a.png) no-repeat top left;
 	margin-left: 3px;
 }
 
 #navegacion .point2-a
 {
-	background: transparent url(../img/point-a.png) no-repeat top left;
+	background: transparent url(../images/point-a.png) no-repeat top left;
 	margin-left: 305px;
 }
 
 #navegacion .point3-a
 {
-	background: transparent url(../img/point-a.png) no-repeat top left;
+	background: transparent url(../images/point-a.png) no-repeat top left;
 	margin-left: 607px;
 }
 
 #navegacion .point4-a
 {
-	background: transparent url(../img/point-a.png) no-repeat top left;
+	background: transparent url(../images/point-a.png) no-repeat top left;
 	margin-left: 909px;
 }
 
@@ -682,25 +681,25 @@ body
 
 #navegacion .point1-b
 {
-	background: transparent url(../img/point-b.png) no-repeat top left;
+	background: transparent url(../images/point-b.png) no-repeat top left;
 	margin-left: 3px;
 }
 
 #navegacion .point2-b
 {
-	background: transparent url(../img/point-b.png) no-repeat top left;
+	background: transparent url(../images/point-b.png) no-repeat top left;
 	margin-left: 305px;
 }
 
 #navegacion .point3-b
 {
-	background: transparent url(../img/point-b.png) no-repeat top left;
+	background: transparent url(../images/point-b.png) no-repeat top left;
 	margin-left: 607px;
 }
 
 #navegacion .point4-b
 {
-	background: transparent url(../img/point-b.png) no-repeat top left;
+	background: transparent url(../images/point-b.png) no-repeat top left;
 	margin-left: 909px;
 }
 
